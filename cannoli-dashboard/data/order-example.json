@@ -1,0 +1,179 @@
+{
+  "benefits": [],
+  "companyId": "00000000000000000000000000000000",
+  "cancellation": null,
+  "extraInfo": null,
+  "displayId": "12345",
+  "id": "CANNOLI_00000000000000000000000000000000",
+  "isTest": false,
+  "indoor": null,
+  "integrated": false,
+  "integrationId": null,
+  "merchant": {
+    "id": "00000000000000000000000000000000",
+    "name": "Food Service",
+    "description": "",
+    "doc": "00000000000000",
+    "docType": "CNPJ"
+  },
+  "orderTiming": "IMMEDIATE",
+  "orderType": "DELIVERY",
+  "preparationStartDateTime": "2000-01-01T00:00:01.100Z",
+  "reference": "00000000000000000000000000000000",
+  "salesChannel": "WHATSAPP",
+  "scheduledAt": "2000-01-01T00:00:01.100Z",
+  "scheduled": false,
+  "takeout": null,
+  "takeOutTimeInSeconds": 1800,
+  "version": "0.0.3",
+  "engineType": "CANNOLI",
+  "engineName": "CANNOLI",
+  "engineId": "00000000000000000000000000000000",
+  "containerId": "00000000000000000000000000000000",
+  "occurrences": [],
+  "active": true,
+  "createdAt": "2000-01-01T00:00:01.100Z",
+  "total": {
+    "benefits": 0,
+    "deliveryFee": 0,
+    "orderAmount": 55,
+    "subTotal": 55,
+    "additionalFees": 0
+  },
+  "items": [
+    {
+      "id": "00000000000000000000000000000000",
+      "externalCode": "2341",
+      "index": 1,
+      "name": "McChicken Coca-Cola 350ml",
+      "observations": "",
+      "options": [
+        {
+          "questionId": "00000000000000000000000000000000",
+          "min": 1,
+          "max": 1,
+          "externalCode": "10408889",
+          "id": "00000000000000000000000000000000",
+          "index": 0,
+          "name": "Pequena",
+          "price": 0,
+          "quantity": 1,
+          "skill": "PRODUCT",
+          "totalPrice": 0,
+          "unitPrice": 0
+        },
+        {
+          "questionId": "00000000000000000000000000000000",
+          "min": 1,
+          "max": 1,
+          "externalCode": "14901242",
+          "id": "00000000000000000000000000000000",
+          "index": 1,
+          "name": "Coca-Cola 350ml",
+          "price": 5,
+          "quantity": 1,
+          "skill": "PRODUCT",
+          "totalPrice": 5,
+          "unitPrice": 5
+        }
+      ],
+      "optionsPrice": 5,
+      "productId": "00000000000000000000000000000000",
+      "price": 50,
+      "quantity": 1,
+      "scalePrices": [],
+      "skill": "SIMPLE",
+      "totalPrice": 55,
+      "unit": "UN",
+      "unitType": "PACKAGING",
+      "unitPrice": 50,
+      "weight": 1
+    }
+  ],
+  "customer": {
+    "documentNumber": "12345678900",
+    "id": "00000000000000000000000000000000",
+    "name": "Joao Pessoa",
+    "email": "joao.pessoa@email.com",
+    "ordersCountOnMerchant": 1,
+    "phone": {
+      "description": null,
+      "number": "11912345678",
+      "localizer": null,
+      "localizerExpiration": null
+    },
+    "coords": null,
+    "picture": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fx.com%2Fsotrackboa%2Fstatus%2F1722315627551928740&psig=AOvVaw35KATuNW1r24eb_Kfg95sD&ust=1754138633108000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCPjVl-TR6Y4DFQAAAAAdAAAAABAE"
+  },
+  "delivery": {
+    "mode": "DEFAULT",
+    "deliveredBy": "MERCHANT",
+    "deliveryDateTime": "2000-01-01T00:00:01.100Z",
+    "preferential": false,
+    "preparationTime": 20,
+    "deliveryAddress": {
+      "coords": {
+        "latitude": -0.0000001,
+        "longitude": -0.0000002
+      },
+      "city": "São Paulo",
+      "complement": "",
+      "name": "Casa",
+      "country": "BRAZIL",
+      "formattedAddress": "Rua exemplo, 123",
+      "neighborhood": "Vila exemplar",
+      "postalCode": "01213456",
+      "reference": "",
+      "state": "SP",
+      "id": "00000000000000000000000000000000",
+      "streetName": "Rua exemplo",
+      "streetNumber": "123"
+    },
+    "minimumCartValue": 1,
+    "coords": {
+      "latitude": -0.0000001,
+      "longitude": -0.0000002
+    }
+  },
+  "deliverer": {
+    "collectedAt": null,
+    "deliveredAt": null,
+    "id": "00000000000000000000000000000000",
+    "nickName": "Enzo",
+    "pictureUrl": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fx.com%2Fdesolaoficial%2Fstatus%2F1384635489412554763&psig=AOvVaw1lvu1tf5_p_uLpk9l_krnu&ust=1754138787402000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCJjl36_S6Y4DFQAAAAAdAAAAABAE"
+  },
+  "payments": {
+    "methods": [
+      {
+        "id": "00000000000000000000000000000000",
+        "cash": {
+          "changeFor": 0
+        },
+        "paymentId": "0000000000000000000",
+        "code": "CASH",
+        "currency": "BRL",
+        "method": "CASH",
+        "prepaid": false,
+        "type": "OFFLINE",
+        "value": 55,
+        "createdAt": "2000-01-01T00:00:01.100Z"
+      }
+    ],
+    "pending": 55,
+    "prepaid": 0
+  },
+  "actions": [
+    {
+      "status": "PLACED",
+      "createdAt": "2000-01-01T00:00:01.100Z",
+      "user": "API - SetOrderStatusV3Service"
+    },
+    {
+      "status": "CONFIRMED",
+      "createdAt": "2000-01-01T00:00:01.100Z",
+      "user": "API - SetOrderStatusV3Service"
+    }
+  ],
+  "status": "CONFIRMED",
+  "updatedAt": "2000-01-01T00:00:01.100Z"
+}

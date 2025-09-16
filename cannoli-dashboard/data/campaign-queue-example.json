@@ -1,0 +1,18 @@
+{
+  "campaignId": "00000000-0000-0000-0000-000000000000",
+  "createdAt": "2000-01-01T00:00:01.100Z",
+  "createdBy": "System",
+  "customerId": "00000000-0000-0000-0000-000000000000",
+  "id": "00000000-0000-0000-0000-000000000000",
+  "jobId": "00000000-0000-0000-0000-000000000000",
+  "message": "{\"instanceName\":\"Restaurante XYZ\",\"to\":\"5511912345678\",\"header\":{\"type\":\"text\",\"text\":\"Obrigado pelo primeiro pedido\"},\"body\":{\"text\":\"Joao Pessoa! Estamos felizes por realizar o seu primeiro pedido conosco. Não percar essa oportunidade e ganhe 10% de desconto na próxima compra.\"},\"footer\":{\"text\":\"http://www.restaurantexyz.com.br\"},\"buttons\":[]}",
+  "phoneNumber": "5511912345678",
+  "response": "Obrigado pelo primeiro pedido\nJoao Pessoa! Estamos felizes por realizar o seu primeiro pedido conosco. Não percar essa oportunidade e ganhe 10% de desconto na próxima compra.\nhttp://www.restaurantexyz.com.br",
+  "scheduledAt": "2000-01-01T00:00:01.100Z",
+  "sendAt": "2000-01-01T00:00:01.100Z",
+  "status": 2,
+  "storeId": "00000000-0000-0000-0000-000000000000",
+  "storeInstanceId": "00000000-0000-0000-0000-000000000000",
+  "updatedAt": "2000-01-01T00:00:01.100Z",
+  "updatedBy": "System"
+}
