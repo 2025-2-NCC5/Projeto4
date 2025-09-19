@@ -1,0 +1,2479 @@
+[
+  {
+    "id": "IFOOD_c2b5ba58-f819-469c-99c9-09ea2fae2835",
+    "displayId": "4146",
+    "category": "FOOD",
+    "orderTiming": "IMMEDIATE",
+    "orderType": "DELIVERY",
+    "delivery": {
+      "mode": "DEFAULT",
+      "description": "Padrão",
+      "deliveredBy": "MERCHANT",
+      "deliveryDateTime": "2025-08-27T17:26:17.823Z",
+      "deliveryAddress": {
+        "streetName": "Exemplo",
+        "streetNumber": "Exemplo",
+        "formattedAddress": "Exemplo",
+        "neighborhood": "Exemplo",
+        "complement": "Exemplo",
+        "postalCode": "00000-000",
+        "city": "São Paulo",
+        "state": "SP",
+        "country": "BR",
+        "coordinates": {
+          "latitude": -23.470608,
+          "longitude": -46.588434
+        }
+      },
+      "pickupCode": "5560"
+    },
+    "preparationStartDateTime": "2025-08-27T16:56:17.823Z",
+    "isTest": false,
+    "salesChannel": "IFOOD",
+    "merchant": {
+      "id": "40afd127-533e-41ee-adde-2e20c9da5712",
+      "name": "LOJA"
+    },
+    "customer": {
+      "id": "0cba367b-c962-4298-8816-2c8c92e262d1",
+      "name": "Viviane Hearttaker",
+      "phone": {
+        "number": "0800 705 6070",
+        "localizer": "00000000000",
+        "localizerExpiration": "2025-08-27T20:56:17.823Z"
+      },
+      "ordersCountOnMerchant": 3,
+      "segmentation": "Cliente Frequente"
+    },
+    "items": [
+      {
+        "index": 1,
+        "id": "e89b32b7-2200-4901-a961-ba2523fff990",
+        "uniqueId": "360d2cae-a5e2-4a63-abf4-003032602f90",
+        "name": "Esfiha de Palmito c/ Queijo",
+        "type": "DEFAULT",
+        "quantity": 2,
+        "unit": "GRAMS",
+        "unitPrice": 6.79,
+        "optionsPrice": 0,
+        "totalPrice": 13.58,
+        "price": 13.58,
+        "observations": "",
+        "options": [],
+        "imageUrl": "https://imagem.png"
+      },
+      {
+        "index": 2,
+        "id": "eab9235d-a3f5-4ad9-906b-71f879e14a0b",
+        "uniqueId": "040e971b-a44c-4633-ab25-a2fa21de7c5e",
+        "name": "Esfiha de Milho c/ Queijo",
+        "type": "DEFAULT",
+        "quantity": 2,
+        "unit": "UN",
+        "unitPrice": 6.59,
+        "optionsPrice": 0,
+        "totalPrice": 13.18,
+        "price": 13.18,
+        "observations": "",
+        "options": [],
+        "imageUrl": "https://imagem.png"
+      },
+      {
+        "index": 3,
+        "id": "9a634868-8ed1-4f0a-92b4-88ea49cbb1dc",
+        "uniqueId": "c24c80ab-2886-407a-8c5b-b52019e13085",
+        "name": "Refrigerantes - 350ml",
+        "type": "DEFAULT",
+        "quantity": 1,
+        "unit": "UN",
+        "unitPrice": 9.1,
+        "optionsPrice": 0,
+        "totalPrice": 9.1,
+        "price": 9.1,
+        "observations": "",
+        "options": [
+          {
+            "index": 4,
+            "id": "6ef95ab3-7cef-4c64-bc0d-60cf1065f31b",
+            "name": "Coca-Cola",
+            "type": "DEFAULT",
+            "groupName": "Sabor",
+            "customizations": [],
+            "externalCode": "",
+            "quantity": 1,
+            "unit": "UN",
+            "unitPrice": 0,
+            "addition": 0,
+            "price": 0
+          }
+        ],
+        "imageUrl": "https://imagem.png"
+      },
+      {
+        "index": 5,
+        "id": "0a705b83-be56-48fd-9163-1b8a2df2bc70",
+        "uniqueId": "8d2ef870-168e-4d4f-9cad-a91bc0d98997",
+        "name": "Esfiha de Queijo",
+        "type": "DEFAULT",
+        "quantity": 1,
+        "unit": "GRAMS",
+        "unitPrice": 5.7,
+        "optionsPrice": 0,
+        "totalPrice": 5.7,
+        "price": 5.7,
+        "observations": "",
+        "options": [],
+        "imageUrl": "https://imagem.png"
+      }
+    ],
+    "benefits": [
+      {
+        "target": "CART",
+        "value": 10,
+        "sponsorshipValues": [
+          {
+            "name": "IFOOD",
+            "value": 10,
+            "description": "Incentivo do iFood"
+          },
+          {
+            "name": "MERCHANT",
+            "value": 0,
+            "description": "Incentivo da Loja"
+          },
+          {
+            "name": "EXTERNAL",
+            "value": 0,
+            "description": "Incentivo da Industria"
+          },
+          {
+            "name": "CHAIN",
+            "value": 0,
+            "description": "Incentivo da Rede"
+          }
+        ],
+        "campaign": {
+          "id": "0ae45d2a-3e56-45a2-85bc-1664d9edfbaa",
+          "name": "CLUBE_IFOOD_V2_LIVRE_ADDON"
+        }
+      }
+    ],
+    "total": {
+      "additionalFees": 0.99,
+      "subTotal": 41.56,
+      "deliveryFee": 0,
+      "benefits": 10,
+      "orderAmount": 32.55
+    },
+    "payments": {
+      "prepaid": 32.55,
+      "pending": 0,
+      "methods": [
+        {
+          "value": 32.55,
+          "currency": "BRL",
+          "method": "DEBIT",
+          "prepaid": true,
+          "type": "ONLINE",
+          "card": {
+            "brand": "MASTERCARD_MAESTRO"
+          }
+        }
+      ]
+    },
+    "additionalFees": [
+      {
+        "type": "SERVICE_FEE_099_ALL_ORDERS_SP",
+        "description": "Taxa de serviço",
+        "fullDescription": "Cobramos uma taxa que nos ajuda a cobrir os custos operacionais e manter a melhor experiência de compra para você",
+        "value": 0.99,
+        "liabilities": [
+          {
+            "name": "IFOOD",
+            "percentage": 100
+          }
+        ]
+      }
+    ],
+    "picking": {
+      "picker": "DEFAULT"
+    },
+    "reference": "c2b5ba58-f819-469c-99c9-09ea2fae2835",
+    "engineType": "IFOOD",
+    "engineName": "LOJA",
+    "engineId": "174595733498A9018D48759538058484",
+    "companyId": "1745956859395BA7BB07E98BF5D6132C",
+    "containerId": "1745956859353CCFB8AFA9FF88393782",
+    "active": true,
+    "createdAt": "2025-08-27T16:56:55.246Z",
+    "actions": [
+      {
+        "status": "CONFIRMED",
+        "createdAt": "2025-08-27T16:57:47.125Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "DELIVERY_DROP_CODE_REQUESTED",
+        "createdAt": "2025-08-27T16:57:59.336Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "DISPATCHED",
+        "createdAt": "2025-08-27T17:13:40.129Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "CONCLUDED",
+        "createdAt": "2025-08-27T18:09:43.964Z",
+        "user": "PROCESS_EVENTS"
+      }
+    ],
+    "updatedAt": "2025-08-27T18:09:43.964Z",
+    "status": "CONCLUDED"
+  },
+  {
+    "id": "IFOOD_b21d3375-8877-4cef-8673-dabf4ceb1852",
+    "displayId": "0899",
+    "category": "FOOD",
+    "orderTiming": "IMMEDIATE",
+    "orderType": "DELIVERY",
+    "delivery": {
+      "mode": "DEFAULT",
+      "description": "Padrão",
+      "deliveredBy": "MERCHANT",
+      "deliveryDateTime": "2025-08-27T15:00:23.892Z",
+      "deliveryAddress": {
+        "streetName": "Exemplo",
+        "streetNumber": "Exemplo",
+        "formattedAddress": "Exemplo",
+        "neighborhood": "Exemplo",
+        "postalCode": "00000-000",
+        "city": "São Paulo",
+        "state": "SP",
+        "country": "BR",
+        "coordinates": {
+          "latitude": -23.47719,
+          "longitude": -46.571159
+        }
+      },
+      "pickupCode": "1657"
+    },
+    "preparationStartDateTime": "2025-08-27T14:30:23.892Z",
+    "isTest": false,
+    "salesChannel": "IFOOD",
+    "merchant": {
+      "id": "40afd127-533e-41ee-adde-2e20c9da5712",
+      "name": "LOJA"
+    },
+    "customer": {
+      "id": "de26a0fb-bcf0-4c5f-a0a7-a616f2999cc9",
+      "name": "Maynara Hartbraker",
+      "documentNumber": "00000000000",
+      "phone": {
+        "number": "0800 711 8080",
+        "localizer": "00000000000",
+        "localizerExpiration": "2025-08-27T18:30:23.892Z"
+      },
+      "ordersCountOnMerchant": 1,
+      "segmentation": "Cliente"
+    },
+    "items": [
+      {
+        "index": 1,
+        "id": "fb7cb6ba-a12c-4a65-99c1-6c5a61263a41",
+        "uniqueId": "5c7f8b46-7107-4881-880e-3509f9929abb",
+        "name": "Esfiha de Chocolate",
+        "type": "DEFAULT",
+        "quantity": 1,
+        "unit": "UN",
+        "unitPrice": 8.9,
+        "optionsPrice": 0,
+        "totalPrice": 8.9,
+        "price": 8.9,
+        "observations": "Por gentileza, não deixe a massa crocante e torrada. Muito obrigada!",
+        "options": [],
+        "imageUrl": "https://imagem.png"
+      },
+      {
+        "index": 2,
+        "id": "3fc943d2-fe6c-4555-983e-8c87d6a2b3f4",
+        "uniqueId": "22f7f03f-d0d6-4417-99c8-8f94b824330a",
+        "name": "Esfiha de Carne",
+        "type": "DEFAULT",
+        "quantity": 2,
+        "unit": "GRAMS",
+        "unitPrice": 3.59,
+        "optionsPrice": 0,
+        "totalPrice": 7.18,
+        "price": 7.18,
+        "observations": "",
+        "options": [],
+        "imageUrl": "https://imagem.png"
+      },
+      {
+        "index": 3,
+        "id": "f1b7310c-a184-4a47-8a2c-826ae60da3e3",
+        "uniqueId": "e1487417-c59b-4bd7-b3b5-2463b26418ad",
+        "name": "Esfiha de Requeijão",
+        "type": "DEFAULT",
+        "quantity": 1,
+        "unit": "UN",
+        "unitPrice": 4.8,
+        "optionsPrice": 0,
+        "totalPrice": 4.8,
+        "price": 4.8,
+        "observations": "",
+        "options": [],
+        "imageUrl": "https://imagem.png"
+      },
+      {
+        "index": 4,
+        "id": "15011e2e-8493-4318-82f7-56a5bf571e6e",
+        "uniqueId": "d1c65be7-dd65-4c3e-9f4b-436f5217133e",
+        "name": "Esfiha de Chocolate c/ Morango",
+        "type": "DEFAULT",
+        "quantity": 1,
+        "unit": "UN",
+        "unitPrice": 9.15,
+        "optionsPrice": 0,
+        "totalPrice": 9.15,
+        "price": 9.15,
+        "observations": "",
+        "options": [],
+        "imageUrl": "https://imagem.png"
+      }
+    ],
+    "benefits": [
+      {
+        "target": "CART",
+        "value": 7.51,
+        "sponsorshipValues": [
+          {
+            "name": "IFOOD",
+            "value": 7.51,
+            "description": "Incentivo do iFood"
+          },
+          {
+            "name": "MERCHANT",
+            "value": 0,
+            "description": "Incentivo da Loja"
+          },
+          {
+            "name": "EXTERNAL",
+            "value": 0,
+            "description": "Incentivo da Industria"
+          },
+          {
+            "name": "CHAIN",
+            "value": 0,
+            "description": "Incentivo da Rede"
+          }
+        ],
+        "campaign": {
+          "id": "20271c9a-fa5b-4c41-8952-cf620dfe519a",
+          "name": "CLUBE_IFOOD_IFB_LIVRE_REC_V2"
+        }
+      }
+    ],
+    "total": {
+      "additionalFees": 0.99,
+      "subTotal": 30.03,
+      "deliveryFee": 0,
+      "benefits": 7.51,
+      "orderAmount": 23.51
+    },
+    "payments": {
+      "prepaid": 23.51,
+      "pending": 0,
+      "methods": [
+        {
+          "value": 23.51,
+          "currency": "BRL",
+          "method": "PIX",
+          "prepaid": true,
+          "type": "ONLINE",
+          "card": {
+            "brand": "PIX"
+          }
+        }
+      ]
+    },
+    "additionalFees": [
+      {
+        "type": "SERVICE_FEE_099_ALL_ORDERS_SP",
+        "description": "Taxa de serviço",
+        "fullDescription": "Cobramos uma taxa que nos ajuda a cobrir os custos operacionais e manter a melhor experiência de compra para você",
+        "value": 0.99,
+        "liabilities": [
+          {
+            "name": "IFOOD",
+            "percentage": 100
+          }
+        ]
+      }
+    ],
+    "picking": {
+      "picker": "DEFAULT"
+    },
+    "reference": "b21d3375-8877-4cef-8673-dabf4ceb1852",
+    "active": true,
+    "createdAt": "2025-08-27T14:31:34.973Z",
+    "actions": [
+      {
+        "status": "CONFIRMED",
+        "createdAt": "2025-08-27T14:32:08.764Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "DELIVERY_DROP_CODE_REQUESTED",
+        "createdAt": "2025-08-27T14:32:16.262Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "DISPATCHED",
+        "createdAt": "2025-08-27T14:50:08.661Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "CONCLUDED",
+        "createdAt": "2025-08-27T15:03:46.062Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "DELIVERY_DROP_CODE_VALIDATION_SUCCESS",
+        "createdAt": "2025-08-27T15:03:55.762Z",
+        "user": "PROCESS_EVENTS"
+      }
+    ],
+    "status": "DELIVERY_DROP_CODE_VALIDATION_SUCCESS",
+    "updatedAt": "2025-08-27T15:03:55.762Z"
+  },
+  {
+    "id": "IFOOD_77073c46-1ee6-4711-b78c-24aa03dbdbdb",
+    "displayId": "4796",
+    "category": "FOOD",
+    "orderTiming": "IMMEDIATE",
+    "orderType": "DELIVERY",
+    "delivery": {
+      "mode": "DEFAULT",
+      "description": "Padrão",
+      "deliveredBy": "MERCHANT",
+      "deliveryDateTime": "2025-08-27T06:38:46.162Z",
+      "deliveryAddress": {
+        "streetName": "Exemplo",
+        "streetNumber": "Exemplo",
+        "formattedAddress": "Exemplo",
+        "neighborhood": "Exemplo",
+        "complement": "Exemplo",
+        "postalCode": "00000-000",
+        "city": "São Paulo",
+        "state": "SP",
+        "country": "BR",
+        "reference": "Internofone não funciona",
+        "coordinates": {
+          "latitude": -23.475427,
+          "longitude": -46.585708
+        }
+      },
+      "pickupCode": "0088"
+    },
+    "preparationStartDateTime": "2025-08-27T06:08:46.162Z",
+    "isTest": false,
+    "salesChannel": "IFOOD",
+    "merchant": {
+      "id": "40afd127-533e-41ee-adde-2e20c9da5712",
+      "name": "LOJA"
+    },
+    "customer": {
+      "id": "16631d8b-b1d8-486a-879d-73ac83b7b354",
+      "name": "Teobaldo Emmanuel",
+      "phone": {
+        "number": "0800 705 1020",
+        "localizer": "00000000000",
+        "localizerExpiration": "2025-08-27T10:08:46.162Z"
+      },
+      "ordersCountOnMerchant": 7,
+      "segmentation": "Cliente"
+    },
+    "items": [
+      {
+        "index": 1,
+        "id": "e2f795f4-2144-447d-9642-1faf4f1fce7e",
+        "uniqueId": "f416953a-0513-40ee-8636-d20150db1fb7",
+        "name": "Esfiha de Calabresa c/ Queijo",
+        "type": "DEFAULT",
+        "quantity": 1,
+        "unit": "GRAMS",
+        "unitPrice": 7.49,
+        "optionsPrice": 0,
+        "totalPrice": 7.49,
+        "price": 7.49,
+        "observations": "",
+        "options": [],
+        "imageUrl": "https://imagem.png"
+      },
+      {
+        "index": 2,
+        "id": "0c80c162-18b7-4f0c-8b52-fcfd3df9f003",
+        "uniqueId": "617377e4-c30b-4c9e-8cc2-79652e2b2c77",
+        "name": "Esfiha de Bauru",
+        "type": "DEFAULT",
+        "quantity": 1,
+        "unit": "GRAMS",
+        "unitPrice": 6.79,
+        "optionsPrice": 0,
+        "totalPrice": 6.79,
+        "price": 6.79,
+        "observations": "",
+        "options": [],
+        "imageUrl": "https://imagem.png"
+      },
+      {
+        "index": 3,
+        "id": "aca7b3ef-a890-43a5-93dd-b6dd6ec86fd0",
+        "uniqueId": "3576df64-8cb4-4fcc-9ec1-bfd8ab2e545b",
+        "name": "Esfiha de Prestígio",
+        "type": "DEFAULT",
+        "quantity": 1,
+        "unit": "UN",
+        "unitPrice": 9.05,
+        "optionsPrice": 0,
+        "totalPrice": 9.05,
+        "price": 9.05,
+        "observations": "",
+        "options": [],
+        "imageUrl": "https://imagem.png"
+      },
+      {
+        "index": 4,
+        "id": "2d8b8562-749a-46a1-8661-df8f92d6f9f7",
+        "uniqueId": "54287e02-8203-4662-95f1-8291bb4dae45",
+        "name": "Esfiha de Chocolate c/ Confete",
+        "type": "DEFAULT",
+        "quantity": 1,
+        "unit": "UN",
+        "unitPrice": 9.05,
+        "optionsPrice": 0,
+        "totalPrice": 9.05,
+        "price": 9.05,
+        "observations": "",
+        "options": [],
+        "imageUrl": "https://imagem.png"
+      },
+      {
+        "index": 5,
+        "id": "3fc943d2-fe6c-4555-983e-8c87d6a2b3f4",
+        "uniqueId": "453024a1-4958-4e8a-bc05-b1ac1b04160e",
+        "name": "Esfiha de Carne",
+        "type": "DEFAULT",
+        "quantity": 2,
+        "unit": "GRAMS",
+        "unitPrice": 3.59,
+        "optionsPrice": 0,
+        "totalPrice": 7.18,
+        "price": 7.18,
+        "observations": "",
+        "options": [],
+        "imageUrl": "https://imagem.png"
+      }
+    ],
+    "benefits": [
+      {
+        "target": "CART",
+        "value": 9.89,
+        "sponsorshipValues": [
+          {
+            "name": "IFOOD",
+            "value": 9.89,
+            "description": "Incentivo do iFood"
+          },
+          {
+            "name": "MERCHANT",
+            "value": 0,
+            "description": "Incentivo da Loja"
+          },
+          {
+            "name": "EXTERNAL",
+            "value": 0,
+            "description": "Incentivo da Industria"
+          },
+          {
+            "name": "CHAIN",
+            "value": 0,
+            "description": "Incentivo da Rede"
+          }
+        ],
+        "campaign": {
+          "id": "865a42d0-38fb-4130-8ff2-129b1e2b1dea",
+          "name": "CLUBE_IFOOD_V2_RECORRENT_230406"
+        }
+      }
+    ],
+    "total": {
+      "additionalFees": 0.99,
+      "subTotal": 39.56,
+      "deliveryFee": 0,
+      "benefits": 9.89,
+      "orderAmount": 30.66
+    },
+    "payments": {
+      "prepaid": 30.66,
+      "pending": 0,
+      "methods": [
+        {
+          "value": 30.66,
+          "currency": "BRL",
+          "method": "OTHER",
+          "prepaid": true,
+          "type": "ONLINE",
+          "card": {
+            "brand": "NUBANK"
+          }
+        }
+      ]
+    },
+    "additionalFees": [
+      {
+        "type": "SERVICE_FEE_099_ALL_ORDERS_SP",
+        "description": "Taxa de serviço",
+        "fullDescription": "Cobramos uma taxa que nos ajuda a cobrir os custos operacionais e manter a melhor experiência de compra para você",
+        "value": 0.99,
+        "liabilities": [
+          {
+            "name": "IFOOD",
+            "percentage": 100
+          }
+        ]
+      }
+    ],
+    "picking": {
+      "picker": "DEFAULT"
+    },
+    "reference": "77073c46-1ee6-4711-b78c-24aa03dbdbdb",
+    "active": true,
+    "createdAt": "2025-08-27T06:09:50.475Z",
+    "actions": [
+      {
+        "status": "CONFIRMED",
+        "createdAt": "2025-08-27T06:10:07.061Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "DELIVERY_DROP_CODE_REQUESTED",
+        "createdAt": "2025-08-27T06:10:14.365Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "DISPATCHED",
+        "createdAt": "2025-08-27T06:46:13.363Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "CONCLUDED",
+        "createdAt": "2025-08-27T10:49:12.466Z",
+        "user": "PROCESS_EVENTS"
+      }
+    ],
+    "status": "CONCLUDED",
+    "updatedAt": "2025-08-27T10:49:12.660Z"
+  },
+  {
+    "id": "IFOOD_3473890d-e460-4f2e-b9a9-2a2c146639a8",
+    "displayId": "2383",
+    "category": "FOOD",
+    "orderTiming": "IMMEDIATE",
+    "orderType": "DELIVERY",
+    "delivery": {
+      "mode": "DEFAULT",
+      "description": "Padrão",
+      "deliveredBy": "IFOOD",
+      "deliveryDateTime": "2025-08-27T07:11:25.432Z",
+      "deliveryAddress": {
+        "streetName": "Exemplo",
+        "streetNumber": "Exemplo",
+        "formattedAddress": "Exemplo",
+        "neighborhood": "Exemplo",
+        "complement": "Exemplo",
+        "postalCode": "00000-000",
+        "city": "São Paulo",
+        "state": "SP",
+        "country": "BR",
+        "coordinates": {
+          "latitude": -23.51777,
+          "longitude": -46.608037
+        }
+      },
+      "pickupCode": "9917"
+    },
+    "preparationStartDateTime": "2025-08-27T05:51:25.432Z",
+    "isTest": false,
+    "salesChannel": "IFOOD",
+    "merchant": {
+      "id": "40afd127-533e-41ee-adde-2e20c9da5712",
+      "name": "LOJA"
+    },
+    "customer": {
+      "id": "9e53517b-65fa-40d8-8567-7c6cf4e18fa5",
+      "name": "Otrobaldo Burgos",
+      "phone": {
+        "number": "0800 705 3040",
+        "localizer": "00000000000",
+        "localizerExpiration": "2025-08-27T09:51:25.432Z"
+      },
+      "ordersCountOnMerchant": 2,
+      "segmentation": "Cliente Frequente"
+    },
+    "items": [
+      {
+        "index": 1,
+        "id": "59a8dd90-a7f1-4c36-a63e-ef56ef6050e6",
+        "uniqueId": "da1a3e1a-c18a-4949-a353-90f85bd72783",
+        "name": "Sucos c/ Leite",
+        "type": "DEFAULT",
+        "quantity": 1,
+        "unit": "UN",
+        "unitPrice": 14.85,
+        "optionsPrice": 0,
+        "totalPrice": 14.85,
+        "price": 14.85,
+        "observations": "",
+        "options": [
+          {
+            "index": 2,
+            "id": "ed69b4a6-9450-4a5e-af08-14da4be2d2e6",
+            "name": "Morango",
+            "type": "DEFAULT",
+            "groupName": "Escolha o Sabor",
+            "customizations": [],
+            "externalCode": "",
+            "quantity": 1,
+            "unit": "UN",
+            "unitPrice": 0,
+            "addition": 0,
+            "price": 0
+          }
+        ],
+        "imageUrl": "https://imagem.png"
+      },
+      {
+        "index": 3,
+        "id": "4fa8169f-a166-4ed8-a296-9e209c6f0477",
+        "uniqueId": "21fbb737-e479-480d-b455-074c8bc7c729",
+        "name": "Petit Gateau",
+        "type": "DEFAULT",
+        "quantity": 2,
+        "unit": "UN",
+        "unitPrice": 25.5,
+        "optionsPrice": 0,
+        "totalPrice": 51,
+        "price": 51,
+        "observations": "",
+        "options": [],
+        "imageUrl": "https://imagem.png"
+      }
+    ],
+    "total": {
+      "additionalFees": 0.99,
+      "subTotal": 65.85,
+      "deliveryFee": 11.99,
+      "benefits": 0,
+      "orderAmount": 78.83
+    },
+    "payments": {
+      "prepaid": 78.83,
+      "pending": 0,
+      "methods": [
+        {
+          "value": 78.83,
+          "currency": "BRL",
+          "method": "PIX",
+          "prepaid": true,
+          "type": "ONLINE",
+          "card": {
+            "brand": "PIX"
+          }
+        }
+      ]
+    },
+    "additionalFees": [
+      {
+        "type": "SERVICE_FEE_099_ALL_ORDERS_SP",
+        "description": "Taxa de serviço",
+        "fullDescription": "Cobramos uma taxa que nos ajuda a cobrir os custos operacionais e manter a melhor experiência de compra para você",
+        "value": 0.99,
+        "liabilities": [
+          {
+            "name": "IFOOD",
+            "percentage": 100
+          }
+        ]
+      }
+    ],
+    "picking": {
+      "picker": "DEFAULT"
+    },
+    "benefits": [],
+    "reference": "3473890d-e460-4f2e-b9a9-2a2c146639a8",
+    "active": true,
+    "createdAt": "2025-08-27T05:56:39.771Z",
+    "actions": [
+      {
+        "status": "CONFIRMED",
+        "createdAt": "2025-08-27T05:57:10.462Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "READY_TO_PICKUP",
+        "createdAt": "2025-08-27T06:13:09.863Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "CANCELLATION_REQUESTED",
+        "createdAt": "2025-08-27T07:41:09.463Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "CANCELLED",
+        "createdAt": "2025-08-27T07:41:18.561Z",
+        "user": "PROCESS_EVENTS"
+      }
+    ],
+    "status": "CANCELLED",
+    "updatedAt": "2025-08-27T07:41:18.660Z"
+  },
+  {
+    "actions": [],
+    "benefits": [],
+    "companyId": "1745956859395BA7BB07E98BF5D6132C",
+    "cancellation": null,
+    "customer": {
+      "id": "317e8af7-a8bd-4571-94d8-fd494587216d",
+      "name": "Diego Cereja ",
+      "ordersCountOnMerchant": 1,
+      "phone": {
+        "number": "00000000000",
+        "extension": ""
+      }
+    },
+    "delivery": {
+      "deliveryAddress": {
+        "country": "BR",
+        "state": "SP",
+        "city": "São Paulo",
+        "neighborhood": "Exemplo",
+        "streetName": "Exemplo",
+        "streetNumber": "Exemplo",
+        "complement": "Exemplo",
+        "postalCode": "00000-000"
+      },
+      "mode": "DEFAULT",
+      "deliveredBy": "MERCHANT",
+      "preparationTime": null
+    },
+    "displayId": "LCRRVW",
+    "id": "DELIVERYVIP_30537017-7064-42b4-83e7-b399399dfbce",
+    "isTest": false,
+    "integrated": false,
+    "integrationId": null,
+    "items": [],
+    "merchant": {
+      "id": "1745956859395BA7BB07E98BF5D6132C",
+      "name": "LOJA",
+      "description": "00000000000000",
+      "doc": "00000000000000",
+      "docType": "00000000000000"
+    },
+    "orderTiming": "IMMEDIATE",
+    "orderType": "DELIVERY",
+    "payments": {
+      "prepaid": 0,
+      "pending": 37.8,
+      "methods": [
+        {
+          "value": 37.8,
+          "currency": "BRL",
+          "type": "OFFLINE",
+          "method": "WALLET",
+          "card": {
+            "brand": "Outro"
+          },
+          "code": "Dinheiro",
+          "cash": {
+            "changeFor": "50.0"
+          }
+        }
+      ]
+    },
+    "preparationStartDateTime": "2025-08-27T05:54:58.779Z",
+    "reference": "30537017-7064-42b4-83e7-b399399dfbce",
+    "salesChannel": "CANNOLI",
+    "scheduledAt": null,
+    "scheduled": false,
+    "takeout": null,
+    "takeOutTimeInSeconds": 1800,
+    "total": {
+      "orderAmount": 37.8,
+      "subTotal": 31.8,
+      "benefits": 0,
+      "deliveryFee": 6,
+      "additionalFees": 0
+    },
+    "version": "0.0.3",
+    "engineType": "DELIVERYVIP",
+    "engineName": "DELIVERY VIP",
+    "engineId": "175458971748EEDAB2BC91A0981D97B0",
+    "containerId": "1745956859353CCFB8AFA9FF88393782",
+    "active": true,
+    "createdAt": "2025-08-27T05:54:58.798Z",
+    "status": "CONCLUDED",
+    "updatedAt": "2025-08-27T10:52:32.242Z"
+  },
+  {
+    "id": "IFOOD_4f6f51aa-18ff-4aa2-a51a-bac9e1427150",
+    "displayId": "7482",
+    "category": "FOOD",
+    "orderTiming": "IMMEDIATE",
+    "orderType": "DELIVERY",
+    "delivery": {
+      "mode": "DEFAULT",
+      "description": "Padrão",
+      "deliveredBy": "MERCHANT",
+      "deliveryDateTime": "2025-08-27T05:03:45.517Z",
+      "deliveryAddress": {
+        "streetName": "Exemplo",
+        "streetNumber": "Exemplo",
+        "formattedAddress": "Exemplo",
+        "neighborhood": "Exemplo",
+        "complement": "Exemplo",
+        "postalCode": "00000-000",
+        "city": "São Paulo",
+        "state": "SP",
+        "country": "BR",
+        "reference": "Próximo A Júlio Buono",
+        "coordinates": {
+          "latitude": -23.475583,
+          "longitude": -46.580863
+        }
+      },
+      "pickupCode": "2435"
+    },
+    "preparationStartDateTime": "2025-08-27T04:33:45.517Z",
+    "isTest": false,
+    "salesChannel": "IFOOD",
+    "merchant": {
+      "id": "40afd127-533e-41ee-adde-2e20c9da5712",
+      "name": "LOJA"
+    },
+    "customer": {
+      "id": "246a7ed1-9a67-442c-b78e-c34328e7bb2b",
+      "name": "Vitoria Bananeira",
+      "phone": {
+        "number": "0800 705 3040",
+        "localizer": "00000000000",
+        "localizerExpiration": "2025-08-27T08:33:45.517Z"
+      },
+      "ordersCountOnMerchant": 5,
+      "segmentation": "Cliente"
+    },
+    "items": [
+      {
+        "index": 1,
+        "id": "8948c1ea-afc4-4c54-8ec2-30581035cb12",
+        "uniqueId": "877c1671-0818-417c-8d27-746cb116a3d8",
+        "name": "Pizzas Salgadas c/ 2 Sabores - 8 Pedaços",
+        "type": "DEFAULT",
+        "quantity": 1,
+        "unit": "UN",
+        "unitPrice": 0,
+        "optionsPrice": 64.35,
+        "totalPrice": 64.35,
+        "price": 0,
+        "observations": "",
+        "options": [
+          {
+            "index": 2,
+            "id": "3f5afcf5-6904-4917-923d-eab0c36e3707",
+            "name": "Pizza de Calabresa",
+            "type": "DEFAULT",
+            "groupName": "Escolha o Sabor",
+            "customizations": [],
+            "externalCode": "",
+            "quantity": 1,
+            "unit": "UN",
+            "unitPrice": 29.25,
+            "addition": 0,
+            "price": 29.25
+          },
+          {
+            "index": 3,
+            "id": "abf41e1b-8bb2-4a88-bee4-d42bca16fe29",
+            "name": "Pizza de Bacon",
+            "type": "DEFAULT",
+            "groupName": "Escolha o Sabor",
+            "customizations": [],
+            "externalCode": "",
+            "quantity": 1,
+            "unit": "UN",
+            "unitPrice": 35.1,
+            "addition": 0,
+            "price": 35.1
+          }
+        ],
+        "imageUrl": "https://imagem.png"
+      }
+    ],
+    "total": {
+      "additionalFees": 0.99,
+      "subTotal": 64.35,
+      "deliveryFee": 0,
+      "benefits": 0,
+      "orderAmount": 65.34
+    },
+    "payments": {
+      "prepaid": 0,
+      "pending": 65.34,
+      "methods": [
+        {
+          "value": 65.34,
+          "currency": "BRL",
+          "method": "CASH",
+          "prepaid": false,
+          "type": "OFFLINE",
+          "cash": {
+            "changeFor": 0
+          }
+        }
+      ]
+    },
+    "additionalFees": [
+      {
+        "type": "SERVICE_FEE_099_ALL_ORDERS_SP",
+        "description": "Taxa de serviço",
+        "fullDescription": "Cobramos uma taxa que nos ajuda a cobrir os custos operacionais e manter a melhor experiência de compra para você",
+        "value": 0.99,
+        "liabilities": [
+          {
+            "name": "IFOOD",
+            "percentage": 100
+          }
+        ]
+      }
+    ],
+    "picking": {
+      "picker": "DEFAULT"
+    },
+    "benefits": [],
+    "reference": "4f6f51aa-18ff-4aa2-a51a-bac9e1427150",
+    "active": true,
+    "createdAt": "2025-08-27T04:34:27.974Z",
+    "actions": [
+      {
+        "status": "CONFIRMED",
+        "createdAt": "2025-08-27T04:34:43.961Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "DELIVERY_DROP_CODE_REQUESTED",
+        "createdAt": "2025-08-27T04:34:51.562Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "DISPATCHED",
+        "createdAt": "2025-08-27T05:12:42.761Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "CONCLUDED",
+        "createdAt": "2025-08-27T09:13:38.760Z",
+        "user": "PROCESS_EVENTS"
+      }
+    ],
+    "status": "CONCLUDED",
+    "updatedAt": "2025-08-27T09:13:38.760Z"
+  },
+  {
+    "benefits": [],
+    "companyId": "1745956859395BA7BB07E98BF5D6132C",
+    "cancellation": null,
+    "customer": {
+      "id": "68ae89cbac8f600cc5ea92c6",
+      "name": "Jonatas Grey ",
+      "phone": {
+        "number": "00000000000",
+        "extension": "",
+        "description": "",
+        "localizer": "",
+        "localizerExpiration": null
+      }
+    },
+    "extraInfo": null,
+    "delivery": {
+      "deliveryAddress": {
+        "country": "br",
+        "state": "SP",
+        "city": "São Paulo",
+        "neighborhood": "Exemplo",
+        "streetName": "Exemplo",
+        "streetNumber": "Exemplo",
+        "postalCode": "00000-000",
+        "complement": "Exemplo"
+      },
+      "deliveredBy": "MERCHANT",
+      "mode": "DEFAULT",
+      "preparationTime": 0
+    },
+    "displayId": "13544",
+    "id": "ANOTAAI_68ae89e5d61be874266a28a3",
+    "isTest": false,
+    "indoor": null,
+    "integrated": false,
+    "integrationId": null,
+    "items": [
+      {
+        "id": 0,
+        "name": "esfiha de carne",
+        "quantity": 8,
+        "externalCode": "",
+        "unitPrice": 2.5,
+        "totalPrice": 20,
+        "options": []
+      }
+    ],
+    "merchant": {
+      "id": "632c691265290c00129c9f4b",
+      "name": "LOJA "
+    },
+    "orderTiming": "IMMEDIATE",
+    "orderType": "DELIVERY",
+    "payments": {
+      "prepaid": 0,
+      "pending": 0,
+      "methods": [
+        {
+          "value": 26,
+          "paymentId": "card",
+          "type": "OFFLINE",
+          "method": "WALLET"
+        }
+      ]
+    },
+    "preparationStartDateTime": "2025-08-27T04:30:30.193Z",
+    "reference": "68ae89e5d61be874266a28a3",
+    "salesChannel": "CANNOLI",
+    "scheduledAt": "2025-08-27T04:30:30.194Z",
+    "scheduled": false,
+    "takeout": null,
+    "takeOutTimeInSeconds": 1800,
+    "total": {
+      "orderAmount": 26,
+      "subTotal": 26,
+      "deliveryFee": 6,
+      "benefits": 0,
+      "additionalFees": 0
+    },
+    "version": "0.0.3",
+    "engineType": "ANOTAAI",
+    "engineName": "ANOTA AI",
+    "engineId": "175449230213CA8EA8D64ECCD176A33F",
+    "containerId": "1745956859353CCFB8AFA9FF88393782",
+    "active": true,
+    "createdAt": "2025-08-27T04:30:30.250Z",
+    "actions": [
+      {
+        "status": "CONFIRMED",
+        "createdAt": "2025-08-27T04:30:30.697Z",
+        "user": "API - SetOrderStatusV3Service"
+      }
+    ],
+    "updatedAt": "2025-08-27T09:00:31.260Z",
+    "status": "CONCLUDED"
+  },
+  {
+    "actions": [],
+    "benefits": [],
+    "companyId": "1745956859395BA7BB07E98BF5D6132C",
+    "cancellation": null,
+    "customer": {
+      "id": "5c7e4ab2-2712-41fb-9cbc-5a83740522aa",
+      "name": "Babi",
+      "ordersCountOnMerchant": 1,
+      "phone": {
+        "number": "00000000000",
+        "extension": ""
+      }
+    },
+    "delivery": {
+      "deliveryAddress": {
+        "country": "BR",
+        "state": "SP",
+        "city": "São Paulo",
+        "neighborhood": "Exemplo",
+        "streetName": "Exemplo",
+        "streetNumber": "Exemplo",
+        "complement": "Exemplo",
+        "postalCode": "00000-000"
+      },
+      "mode": "DEFAULT",
+      "deliveredBy": "MERCHANT",
+      "preparationTime": null
+    },
+    "displayId": "QDBHRC",
+    "id": "DELIVERYVIP_0e09f59a-25a9-46ca-8a43-5f48c95b51e3",
+    "isTest": false,
+    "integrated": false,
+    "integrationId": null,
+    "items": [],
+    "merchant": {
+      "id": "1745956859395BA7BB07E98BF5D6132C",
+      "name": "LOJA",
+      "description": "00000000000000",
+      "doc": "00000000000000",
+      "docType": "00000000000000"
+    },
+    "orderTiming": "IMMEDIATE",
+    "orderType": "DELIVERY",
+    "payments": {
+      "prepaid": 0,
+      "pending": 27.5,
+      "methods": [
+        {
+          "value": 27.5,
+          "currency": "BRL",
+          "type": "OFFLINE",
+          "method": "WALLET",
+          "card": {
+            "brand": "Outro"
+          },
+          "code": "Dinheiro",
+          "cash": {
+            "changeFor": "50.0"
+          }
+        }
+      ]
+    },
+    "preparationStartDateTime": "2025-08-27T04:15:41.483Z",
+    "reference": "0e09f59a-25a9-46ca-8a43-5f48c95b51e3",
+    "salesChannel": "CANNOLI",
+    "scheduledAt": null,
+    "scheduled": false,
+    "takeout": null,
+    "takeOutTimeInSeconds": 1800,
+    "total": {
+      "orderAmount": 27.5,
+      "subTotal": 21.5,
+      "benefits": 0,
+      "deliveryFee": 6,
+      "additionalFees": 0
+    },
+    "version": "0.0.3",
+    "engineType": "DELIVERYVIP",
+    "engineName": "DELIVERY VIP",
+    "engineId": "175458971748EEDAB2BC91A0981D97B0",
+    "containerId": "1745956859353CCFB8AFA9FF88393782",
+    "active": true,
+    "createdAt": "2025-08-27T04:15:41.497Z",
+    "status": "CONCLUDED",
+    "updatedAt": "2025-08-27T10:52:32.150Z"
+  },
+  {
+    "id": "IFOOD_b7be0390-698f-45e4-a044-0bf6fdcb5741",
+    "displayId": "2893",
+    "category": "FOOD",
+    "orderTiming": "IMMEDIATE",
+    "orderType": "DELIVERY",
+    "delivery": {
+      "mode": "DEFAULT",
+      "description": "Padrão",
+      "deliveredBy": "MERCHANT",
+      "deliveryDateTime": "2025-08-27T04:34:03.347Z",
+      "deliveryAddress": {
+        "streetName": "Exemplo",
+        "streetNumber": "Exemplo",
+        "formattedAddress": "Exemplo",
+        "neighborhood": "Exemplo",
+        "complement": "Exemplo",
+        "postalCode": "00000-000",
+        "city": "São Paulo",
+        "state": "SP",
+        "country": "BR",
+        "coordinates": {
+          "latitude": -23.47214,
+          "longitude": -46.592291
+        }
+      },
+      "pickupCode": "9700"
+    },
+    "preparationStartDateTime": "2025-08-27T04:04:03.347Z",
+    "isTest": false,
+    "salesChannel": "IFOOD",
+    "merchant": {
+      "id": "40afd127-533e-41ee-adde-2e20c9da5712",
+      "name": "LOJA"
+    },
+    "customer": {
+      "id": "1d66992b-e61d-4683-a019-0c125ae8cd85",
+      "name": "Andre Light",
+      "phone": {
+        "number": "0800 705 3040",
+        "localizer": "00000000000",
+        "localizerExpiration": "2025-08-27T08:04:03.347Z"
+      },
+      "ordersCountOnMerchant": 1,
+      "segmentation": "Cliente"
+    },
+    "items": [
+      {
+        "index": 1,
+        "id": "430df3ad-c2d5-4749-9e63-d4969c52ce51",
+        "uniqueId": "8eec465a-9883-49ef-86bd-a9be3ea5edc7",
+        "name": "Combo simples (5carne,5queijo)",
+        "type": "DEFAULT",
+        "quantity": 1,
+        "unit": "UN",
+        "unitPrice": 40.99,
+        "optionsPrice": 0,
+        "totalPrice": 40.99,
+        "price": 40.99,
+        "observations": "",
+        "options": [],
+        "imageUrl": "https://imagem.png"
+      }
+    ],
+    "benefits": [
+      {
+        "target": "ITEM",
+        "targetId": "1",
+        "value": 10,
+        "sponsorshipValues": [
+          {
+            "name": "IFOOD",
+            "value": 10,
+            "description": "Incentivo do iFood"
+          },
+          {
+            "name": "MERCHANT",
+            "value": 0,
+            "description": "Incentivo da Loja"
+          },
+          {
+            "name": "EXTERNAL",
+            "value": 0,
+            "description": "Incentivo da Industria"
+          },
+          {
+            "name": "CHAIN",
+            "value": 0,
+            "description": "Incentivo da Rede"
+          }
+        ],
+        "campaign": {
+          "id": "f3fe6dd7-8506-46e1-a70b-244f5bd06e5e",
+          "name": "FD_DESITEM_73B70"
+        }
+      }
+    ],
+    "total": {
+      "additionalFees": 0.99,
+      "subTotal": 40.99,
+      "deliveryFee": 0,
+      "benefits": 10,
+      "orderAmount": 31.98
+    },
+    "payments": {
+      "prepaid": 31.98,
+      "pending": 0,
+      "methods": [
+        {
+          "value": 31.98,
+          "currency": "BRL",
+          "method": "OTHER",
+          "prepaid": true,
+          "type": "ONLINE",
+          "card": {
+            "brand": "NUBANK"
+          }
+        }
+      ]
+    },
+    "additionalFees": [
+      {
+        "type": "SERVICE_FEE_099_ALL_ORDERS_SP",
+        "description": "Taxa de serviço",
+        "fullDescription": "Cobramos uma taxa que nos ajuda a cobrir os custos operacionais e manter a melhor experiência de compra para você",
+        "value": 0.99,
+        "liabilities": [
+          {
+            "name": "IFOOD",
+            "percentage": 100
+          }
+        ]
+      }
+    ],
+    "picking": {
+      "picker": "DEFAULT"
+    },
+    "reference": "b7be0390-698f-45e4-a044-0bf6fdcb5741",
+    "active": true,
+    "createdAt": "2025-08-27T04:04:41.386Z",
+    "actions": [
+      {
+        "status": "CONFIRMED",
+        "createdAt": "2025-08-27T04:05:10.562Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "DELIVERY_DROP_CODE_REQUESTED",
+        "createdAt": "2025-08-27T04:05:20.063Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "DISPATCHED",
+        "createdAt": "2025-08-27T04:29:49.462Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "CANCELLATION_REQUESTED",
+        "createdAt": "2025-08-27T04:48:12.961Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "HANDSHAKE_DISPUTE",
+        "createdAt": "2025-08-27T04:48:21.161Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "HANDSHAKE_SETTLEMENT",
+        "createdAt": "2025-08-27T04:48:40.760Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "HANDSHAKE_SETTLEMENT",
+        "createdAt": "2025-08-27T04:49:10.364Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "CANCELLATION_REQUEST_FAILED",
+        "createdAt": "2025-08-27T04:49:19.261Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "CANCELLED",
+        "createdAt": "2025-08-27T05:06:08.661Z",
+        "user": "PROCESS_EVENTS"
+      }
+    ],
+    "status": "CANCELLED",
+    "updatedAt": "2025-08-27T05:06:08.662Z"
+  },
+  {
+    "id": "IFOOD_594c5fc4-1c8c-47c3-bc9a-a325c04a53e8",
+    "displayId": "9177",
+    "category": "FOOD",
+    "orderTiming": "IMMEDIATE",
+    "orderType": "DELIVERY",
+    "delivery": {
+      "mode": "DEFAULT",
+      "description": "Padrão",
+      "deliveredBy": "MERCHANT",
+      "deliveryDateTime": "2025-08-27T04:13:18.257Z",
+      "deliveryAddress": {
+        "streetName": "Exemplo",
+        "streetNumber": "Exemplo",
+        "formattedAddress": "Exemplo",
+        "neighborhood": "Exemplo",
+        "postalCode": "00000-000",
+        "city": "São Paulo",
+        "state": "SP",
+        "country": "BR",
+        "coordinates": {
+          "latitude": -23.486457,
+          "longitude": -46.573059
+        }
+      },
+      "pickupCode": "4688"
+    },
+    "preparationStartDateTime": "2025-08-27T03:43:18.257Z",
+    "isTest": false,
+    "salesChannel": "IFOOD",
+    "merchant": {
+      "id": "40afd127-533e-41ee-adde-2e20c9da5712",
+      "name": "LOJA"
+    },
+    "customer": {
+      "id": "e5718358-ff6e-4b95-8af0-82036737d639",
+      "name": "George of the Jungle ",
+      "phone": {
+        "number": "0800 700 3021",
+        "localizer": "00000000000",
+        "localizerExpiration": "2025-08-27T07:43:18.257Z"
+      },
+      "ordersCountOnMerchant": 19,
+      "segmentation": "Cliente"
+    },
+    "items": [
+      {
+        "index": 1,
+        "id": "38b9b16b-11b0-488b-a19e-85a12cec7fe7",
+        "uniqueId": "70b85feb-c486-4e23-aa87-323dd0df0802",
+        "name": "Pizzas Salgadas - Brotos",
+        "type": "DEFAULT",
+        "quantity": 1,
+        "unit": "UN",
+        "unitPrice": 0,
+        "optionsPrice": 39.15,
+        "totalPrice": 39.15,
+        "price": 0,
+        "observations": "",
+        "options": [
+          {
+            "index": 2,
+            "id": "eb2e8aef-5678-4b12-b673-6737aa0757d8",
+            "name": "Pizza Broto Portuguesa",
+            "type": "DEFAULT",
+            "groupName": "Escolha o Sabor",
+            "customizations": [],
+            "externalCode": "",
+            "quantity": 1,
+            "unit": "UN",
+            "unitPrice": 39.15,
+            "addition": 0,
+            "price": 39.15
+          }
+        ],
+        "imageUrl": "https://imagem.png"
+      }
+    ],
+    "total": {
+      "additionalFees": 0.99,
+      "subTotal": 39.15,
+      "deliveryFee": 0,
+      "benefits": 0,
+      "orderAmount": 40.14
+    },
+    "payments": {
+      "prepaid": 40.14,
+      "pending": 0,
+      "methods": [
+        {
+          "value": 40.14,
+          "currency": "BRL",
+          "method": "OTHER",
+          "prepaid": true,
+          "type": "ONLINE",
+          "card": {
+            "brand": "NUBANK"
+          }
+        }
+      ]
+    },
+    "additionalFees": [
+      {
+        "type": "SERVICE_FEE_099_ALL_ORDERS_SP",
+        "description": "Taxa de serviço",
+        "fullDescription": "Cobramos uma taxa que nos ajuda a cobrir os custos operacionais e manter a melhor experiência de compra para você",
+        "value": 0.99,
+        "liabilities": [
+          {
+            "name": "IFOOD",
+            "percentage": 100
+          }
+        ]
+      }
+    ],
+    "picking": {
+      "picker": "DEFAULT"
+    },
+    "benefits": [],
+    "reference": "594c5fc4-1c8c-47c3-bc9a-a325c04a53e8",
+    "active": true,
+    "createdAt": "2025-08-27T03:44:10.484Z",
+    "actions": [
+      {
+        "status": "CONFIRMED",
+        "createdAt": "2025-08-27T03:44:39.060Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "DELIVERY_DROP_CODE_REQUESTED",
+        "createdAt": "2025-08-27T03:44:47.361Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "DISPATCHED",
+        "createdAt": "2025-08-27T04:13:59.060Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "CONCLUDED",
+        "createdAt": "2025-08-27T04:17:04.660Z",
+        "user": "PROCESS_EVENTS"
+      }
+    ],
+    "status": "CONCLUDED",
+    "updatedAt": "2025-08-27T04:17:04.660Z"
+  },
+  {
+    "id": "IFOOD_d80a7bff-63c4-467e-8006-426e9fa72320",
+    "displayId": "0004",
+    "category": "FOOD",
+    "orderTiming": "IMMEDIATE",
+    "orderType": "DELIVERY",
+    "delivery": {
+      "mode": "DEFAULT",
+      "description": "Padrão",
+      "deliveredBy": "MERCHANT",
+      "deliveryDateTime": "2025-08-27T04:18:53.641Z",
+      "deliveryAddress": {
+        "streetName": "Exemplo",
+        "streetNumber": "Exemplo",
+        "formattedAddress": "Exemplo",
+        "neighborhood": "Exemplo",
+        "complement": "Exemplo",
+        "postalCode": "00000-000",
+        "city": "São Paulo",
+        "state": "SP",
+        "country": "BR",
+        "coordinates": {
+          "latitude": -23.49649,
+          "longitude": -46.60434
+        }
+      },
+      "pickupCode": "9949"
+    },
+    "preparationStartDateTime": "2025-08-27T03:38:53.641Z",
+    "isTest": false,
+    "salesChannel": "IFOOD",
+    "merchant": {
+      "id": "40afd127-533e-41ee-adde-2e20c9da5712",
+      "name": "LOJA"
+    },
+    "customer": {
+      "id": "a1048672-94cc-48e8-9fdf-c6e408fafed0",
+      "name": "Bea Trix",
+      "phone": {
+        "number": "0800 705 3040",
+        "localizer": "00000000000",
+        "localizerExpiration": "2025-08-27T07:38:53.641Z"
+      },
+      "ordersCountOnMerchant": 2,
+      "segmentation": "Cliente"
+    },
+    "items": [
+      {
+        "index": 1,
+        "id": "15011e2e-8493-4318-82f7-56a5bf571e6e",
+        "uniqueId": "bfda5167-aa96-468e-8aec-31c8720f8c8c",
+        "name": "Esfiha de Chocolate c/ Morango",
+        "type": "DEFAULT",
+        "quantity": 1,
+        "unit": "UN",
+        "unitPrice": 9.15,
+        "optionsPrice": 0,
+        "totalPrice": 9.15,
+        "price": 9.15,
+        "observations": "",
+        "options": [],
+        "imageUrl": "https://imagem.png"
+      },
+      {
+        "index": 2,
+        "id": "3fc943d2-fe6c-4555-983e-8c87d6a2b3f4",
+        "uniqueId": "c1c9896d-76c0-4bd9-aa3d-4251a30817a9",
+        "name": "Esfiha de Carne",
+        "type": "DEFAULT",
+        "quantity": 7,
+        "unit": "GRAMS",
+        "unitPrice": 3.59,
+        "optionsPrice": 0,
+        "totalPrice": 25.13,
+        "price": 25.13,
+        "observations": "",
+        "options": [],
+        "imageUrl": "https://imagem.png"
+      },
+      {
+        "index": 3,
+        "id": "34d350c5-577b-4ea7-a0b3-30a358dfb9e1",
+        "uniqueId": "50e70343-0ea6-4cd9-a837-523bf1b9bea8",
+        "name": "Esfiha Casadinho",
+        "type": "DEFAULT",
+        "quantity": 1,
+        "unit": "UN",
+        "unitPrice": 8.9,
+        "optionsPrice": 0,
+        "totalPrice": 8.9,
+        "price": 8.9,
+        "observations": "",
+        "options": [],
+        "imageUrl": "https://imagem.png"
+      }
+    ],
+    "benefits": [
+      {
+        "target": "CART",
+        "value": 10,
+        "sponsorshipValues": [
+          {
+            "name": "IFOOD",
+            "value": 10,
+            "description": "Incentivo do iFood"
+          },
+          {
+            "name": "MERCHANT",
+            "value": 0,
+            "description": "Incentivo da Loja"
+          },
+          {
+            "name": "EXTERNAL",
+            "value": 0,
+            "description": "Incentivo da Industria"
+          },
+          {
+            "name": "CHAIN",
+            "value": 0,
+            "description": "Incentivo da Rede"
+          }
+        ],
+        "campaign": {
+          "id": "865a42d0-38fb-4130-8ff2-129b1e2b1dea",
+          "name": "CLUBE_IFOOD_V2_RECORRENT_230406"
+        }
+      }
+    ],
+    "total": {
+      "additionalFees": 0.99,
+      "subTotal": 43.18,
+      "deliveryFee": 0,
+      "benefits": 10,
+      "orderAmount": 34.17
+    },
+    "payments": {
+      "prepaid": 34.17,
+      "pending": 0,
+      "methods": [
+        {
+          "value": 34.17,
+          "currency": "BRL",
+          "method": "CREDIT",
+          "prepaid": true,
+          "type": "ONLINE",
+          "card": {
+            "brand": "MASTERCARD"
+          }
+        }
+      ]
+    },
+    "additionalFees": [
+      {
+        "type": "SERVICE_FEE_099_ALL_ORDERS_SP",
+        "description": "Taxa de serviço",
+        "fullDescription": "Cobramos uma taxa que nos ajuda a cobrir os custos operacionais e manter a melhor experiência de compra para você",
+        "value": 0.99,
+        "liabilities": [
+          {
+            "name": "IFOOD",
+            "percentage": 100
+          }
+        ]
+      }
+    ],
+    "picking": {
+      "picker": "DEFAULT"
+    },
+    "reference": "d80a7bff-63c4-467e-8006-426e9fa72320",
+    "active": true,
+    "createdAt": "2025-08-27T03:39:16.682Z",
+    "actions": [
+      {
+        "status": "CONFIRMED",
+        "createdAt": "2025-08-27T03:40:09.964Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "DELIVERY_DROP_CODE_REQUESTED",
+        "createdAt": "2025-08-27T03:40:18.263Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "DISPATCHED",
+        "createdAt": "2025-08-27T04:13:50.560Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "CONCLUDED",
+        "createdAt": "2025-08-27T08:29:02.139Z",
+        "user": "PROCESS_EVENTS"
+      }
+    ],
+    "status": "CONCLUDED",
+    "updatedAt": "2025-08-27T08:29:02.139Z"
+  },
+  {
+    "id": "IFOOD_2c2114f9-b5ec-464a-b9b2-31eb3d5719c8",
+    "displayId": "0340",
+    "category": "FOOD",
+    "orderTiming": "IMMEDIATE",
+    "orderType": "DELIVERY",
+    "delivery": {
+      "mode": "DEFAULT",
+      "description": "Padrão",
+      "deliveredBy": "MERCHANT",
+      "deliveryDateTime": "2025-08-27T04:03:49.960Z",
+      "deliveryAddress": {
+        "streetName": "Exemplo",
+        "streetNumber": "Exemplo",
+        "formattedAddress": "Exemplo",
+        "neighborhood": "Exemplo",
+        "complement": "Exemplo",
+        "postalCode": "00000-000",
+        "city": "São Paulo",
+        "state": "SP",
+        "country": "BR",
+        "coordinates": {
+          "latitude": -23.476906,
+          "longitude": -46.572659
+        }
+      },
+      "pickupCode": "0071"
+    },
+    "preparationStartDateTime": "2025-08-27T03:33:49.960Z",
+    "isTest": false,
+    "salesChannel": "IFOOD",
+    "merchant": {
+      "id": "40afd127-533e-41ee-adde-2e20c9da5712",
+      "name": "LOJA"
+    },
+    "customer": {
+      "id": "82865b6b-2c50-4402-9d99-f4689e8935cc",
+      "name": "Geoveno Win",
+      "phone": {
+        "number": "0800 007 0110",
+        "localizer": "00000000000",
+        "localizerExpiration": "2025-08-27T07:33:49.960Z"
+      },
+      "ordersCountOnMerchant": 1,
+      "segmentation": "Cliente"
+    },
+    "items": [
+      {
+        "index": 1,
+        "id": "15011e2e-8493-4318-82f7-56a5bf571e6e",
+        "uniqueId": "38f64feb-ef8f-4d91-95ad-f516b2956b3d",
+        "name": "Esfiha de Chocolate c/ Morango",
+        "type": "DEFAULT",
+        "quantity": 1,
+        "unit": "UN",
+        "unitPrice": 9.15,
+        "optionsPrice": 0,
+        "totalPrice": 9.15,
+        "price": 9.15,
+        "observations": "",
+        "options": [],
+        "imageUrl": "https://imagem.png"
+      },
+      {
+        "index": 2,
+        "id": "fb7cb6ba-a12c-4a65-99c1-6c5a61263a41",
+        "uniqueId": "76dc3d61-bb47-49bf-8a3b-ff36ad1e7ba6",
+        "name": "Esfiha de Chocolate",
+        "type": "DEFAULT",
+        "quantity": 1,
+        "unit": "UN",
+        "unitPrice": 8.9,
+        "optionsPrice": 0,
+        "totalPrice": 8.9,
+        "price": 8.9,
+        "observations": "",
+        "options": [],
+        "imageUrl": "https://imagem.png"
+      },
+      {
+        "index": 3,
+        "id": "0b01f8f2-1a7d-4181-a50e-bb6413a5b16e",
+        "uniqueId": "4ef4f829-0b43-43d6-b7f6-683d777d54d7",
+        "name": "Esfiha de Doce de Leite",
+        "type": "DEFAULT",
+        "quantity": 1,
+        "unit": "UN",
+        "unitPrice": 8.9,
+        "optionsPrice": 0,
+        "totalPrice": 8.9,
+        "price": 8.9,
+        "observations": "",
+        "options": [],
+        "imageUrl": "https://imagem.png"
+      }
+    ],
+    "total": {
+      "additionalFees": 0.99,
+      "subTotal": 26.95,
+      "deliveryFee": 0,
+      "benefits": 0,
+      "orderAmount": 27.94
+    },
+    "payments": {
+      "prepaid": 27.94,
+      "pending": 0,
+      "methods": [
+        {
+          "value": 27.94,
+          "currency": "BRL",
+          "method": "OTHER",
+          "prepaid": true,
+          "type": "ONLINE",
+          "card": {
+            "brand": "NUBANK"
+          }
+        }
+      ]
+    },
+    "additionalFees": [
+      {
+        "type": "SERVICE_FEE_099_ALL_ORDERS_SP",
+        "description": "Taxa de serviço",
+        "fullDescription": "Cobramos uma taxa que nos ajuda a cobrir os custos operacionais e manter a melhor experiência de compra para você",
+        "value": 0.99,
+        "liabilities": [
+          {
+            "name": "IFOOD",
+            "percentage": 100
+          }
+        ]
+      }
+    ],
+    "picking": {
+      "picker": "DEFAULT"
+    },
+    "benefits": [],
+    "reference": "2c2114f9-b5ec-464a-b9b2-31eb3d5719c8",
+    "active": true,
+    "createdAt": "2025-08-27T03:34:40.773Z",
+    "actions": [
+      {
+        "status": "CONFIRMED",
+        "createdAt": "2025-08-27T03:34:57.561Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "DELIVERY_DROP_CODE_REQUESTED",
+        "createdAt": "2025-08-27T03:35:04.962Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "DISPATCHED",
+        "createdAt": "2025-08-27T04:13:41.961Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "CONCLUDED",
+        "createdAt": "2025-08-27T08:13:42.861Z",
+        "user": "PROCESS_EVENTS"
+      }
+    ],
+    "status": "CONCLUDED",
+    "updatedAt": "2025-08-27T08:13:42.861Z"
+  },
+  {
+    "actions": [],
+    "benefits": [],
+    "companyId": "1745956859395BA7BB07E98BF5D6132C",
+    "cancellation": null,
+    "customer": {
+      "id": "368be1eb-7734-4db9-aec4-ab646949648c",
+      "name": "Paty Maionese",
+      "ordersCountOnMerchant": 1,
+      "phone": {
+        "number": "00000000000",
+        "extension": ""
+      }
+    },
+    "extraInfo": "Por favor enviar ketchup",
+    "delivery": {
+      "deliveryAddress": {
+        "country": "BR",
+        "state": "SP",
+        "city": "São Paulo",
+        "neighborhood": "Exemplo",
+        "streetName": "Exemplo",
+        "streetNumber": "Exemplo",
+        "complement": "Exemplo",
+        "postalCode": "00000-000"
+      },
+      "mode": "DEFAULT",
+      "deliveredBy": "MERCHANT",
+      "preparationTime": null
+    },
+    "displayId": "E2DAHB",
+    "id": "DELIVERYVIP_1652a67e-354f-41a3-8d05-39e4164cdd66",
+    "isTest": false,
+    "integrated": false,
+    "integrationId": null,
+    "items": [],
+    "merchant": {
+      "id": "1745956859395BA7BB07E98BF5D6132C",
+      "name": "LOJA",
+      "description": "00000000000000",
+      "doc": "00000000000000",
+      "docType": "00000000000000"
+    },
+    "orderTiming": "IMMEDIATE",
+    "orderType": "DELIVERY",
+    "payments": {
+      "prepaid": 0,
+      "pending": 62,
+      "methods": [
+        {
+          "value": 62,
+          "currency": "BRL",
+          "type": "OFFLINE",
+          "method": "WALLET",
+          "card": {
+            "brand": "Outro"
+          },
+          "code": "Dinheiro",
+          "cash": {
+            "changeFor": 0
+          }
+        }
+      ]
+    },
+    "preparationStartDateTime": "2025-08-27T03:33:37.331Z",
+    "reference": "1652a67e-354f-41a3-8d05-39e4164cdd66",
+    "salesChannel": "CANNOLI",
+    "scheduledAt": null,
+    "scheduled": false,
+    "takeout": null,
+    "takeOutTimeInSeconds": 1800,
+    "total": {
+      "orderAmount": 62,
+      "subTotal": 56,
+      "benefits": 0,
+      "deliveryFee": 6,
+      "additionalFees": 0
+    },
+    "version": "0.0.3",
+    "engineType": "DELIVERYVIP",
+    "engineName": "DELIVERY VIP",
+    "engineId": "175458971748EEDAB2BC91A0981D97B0",
+    "containerId": "1745956859353CCFB8AFA9FF88393782",
+    "active": true,
+    "createdAt": "2025-08-27T03:33:37.344Z",
+    "status": "CONCLUDED",
+    "updatedAt": "2025-08-27T10:51:33.452Z"
+  },
+  {
+    "id": "IFOOD_00c31145-ae94-4887-9728-412676e041c2",
+    "displayId": "2388",
+    "category": "FOOD",
+    "orderTiming": "IMMEDIATE",
+    "orderType": "DELIVERY",
+    "delivery": {
+      "mode": "DEFAULT",
+      "description": "Padrão",
+      "deliveredBy": "MERCHANT",
+      "deliveryDateTime": "2025-08-27T03:58:21.660Z",
+      "deliveryAddress": {
+        "streetName": "Exemplo",
+        "streetNumber": "Exemplo",
+        "formattedAddress": "Exemplo",
+        "neighborhood": "Exemplo",
+        "complement": "Exemplo",
+        "postalCode": "00000-000",
+        "city": "São Paulo",
+        "state": "SP",
+        "country": "BR",
+        "reference": "Dentro Da UBS Vila Medeiros",
+        "coordinates": {
+          "latitude": -23.492354,
+          "longitude": -46.585222
+        }
+      },
+      "pickupCode": "1352"
+    },
+    "preparationStartDateTime": "2025-08-27T03:28:21.660Z",
+    "isTest": false,
+    "salesChannel": "IFOOD",
+    "merchant": {
+      "id": "40afd127-533e-41ee-adde-2e20c9da5712",
+      "name": "LOJA"
+    },
+    "customer": {
+      "id": "3ee6e65c-6afd-43d1-879d-166217d24d94",
+      "name": "Wrestling Silva ",
+      "phone": {
+        "number": "0800 700 3021",
+        "localizer": "00000000000",
+        "localizerExpiration": "2025-08-27T07:28:21.660Z"
+      },
+      "ordersCountOnMerchant": 0,
+      "segmentation": "Cliente"
+    },
+    "items": [
+      {
+        "index": 1,
+        "id": "099374e3-714d-4cb2-8abd-a3dedd498298",
+        "uniqueId": "a39de6e6-63ce-41f5-80c3-a9d6e236c6bb",
+        "name": "Refrigerantes - 2 Litros",
+        "type": "DEFAULT",
+        "quantity": 1,
+        "unit": "UN",
+        "unitPrice": 0,
+        "optionsPrice": 12.99,
+        "totalPrice": 12.99,
+        "price": 0,
+        "observations": "",
+        "options": [
+          {
+            "index": 2,
+            "id": "3dc962a7-50cf-4643-af72-e10f407ec913",
+            "name": "Dolly Limão",
+            "type": "DEFAULT",
+            "groupName": "Sabor",
+            "customizations": [],
+            "externalCode": "",
+            "quantity": 1,
+            "unit": "UN",
+            "unitPrice": 12.99,
+            "addition": 0,
+            "price": 12.99
+          }
+        ],
+        "imageUrl": "https://imagem.png"
+      },
+      {
+        "index": 3,
+        "id": "3c3ec10f-dd4f-4997-a92c-959b2613b44e",
+        "uniqueId": "60bcefe8-86f6-498a-852e-eaac5a4c3d63",
+        "name": "Beirute á Moda",
+        "type": "DEFAULT",
+        "quantity": 1,
+        "unit": "GRAMS",
+        "unitPrice": 62.59,
+        "optionsPrice": 0,
+        "totalPrice": 62.59,
+        "price": 62.59,
+        "observations": "",
+        "options": [],
+        "imageUrl": "https://imagem.png"
+      }
+    ],
+    "benefits": [
+      {
+        "target": "CART",
+        "value": 10,
+        "sponsorshipValues": [
+          {
+            "name": "IFOOD",
+            "value": 10,
+            "description": "Incentivo do iFood"
+          },
+          {
+            "name": "MERCHANT",
+            "value": 0,
+            "description": "Incentivo da Loja"
+          },
+          {
+            "name": "EXTERNAL",
+            "value": 0,
+            "description": "Incentivo da Industria"
+          },
+          {
+            "name": "CHAIN",
+            "value": 0,
+            "description": "Incentivo da Rede"
+          }
+        ],
+        "campaign": {
+          "id": "865a42d0-38fb-4130-8ff2-129b1e2b1dea",
+          "name": "CLUBE_IFOOD_V2_RECORRENT_230406"
+        }
+      }
+    ],
+    "total": {
+      "additionalFees": 0.99,
+      "subTotal": 75.58,
+      "deliveryFee": 0,
+      "benefits": 10,
+      "orderAmount": 66.57
+    },
+    "payments": {
+      "prepaid": 0,
+      "pending": 66.57,
+      "methods": [
+        {
+          "value": 66.57,
+          "currency": "BRL",
+          "method": "MEAL_VOUCHER",
+          "prepaid": false,
+          "type": "OFFLINE",
+          "card": {
+            "brand": "TICKET"
+          }
+        }
+      ]
+    },
+    "additionalFees": [
+      {
+        "type": "SERVICE_FEE_099_ALL_ORDERS_SP",
+        "description": "Taxa de serviço",
+        "fullDescription": "Cobramos uma taxa que nos ajuda a cobrir os custos operacionais e manter a melhor experiência de compra para você",
+        "value": 0.99,
+        "liabilities": [
+          {
+            "name": "IFOOD",
+            "percentage": 100
+          }
+        ]
+      }
+    ],
+    "picking": {
+      "picker": "DEFAULT"
+    },
+    "reference": "00c31145-ae94-4887-9728-412676e041c2",
+    "active": true,
+    "createdAt": "2025-08-27T03:28:38.180Z",
+    "actions": [
+      {
+        "status": "CONFIRMED",
+        "createdAt": "2025-08-27T03:29:09.061Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "DELIVERY_DROP_CODE_REQUESTED",
+        "createdAt": "2025-08-27T03:29:17.460Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "DISPATCHED",
+        "createdAt": "2025-08-27T04:13:09.861Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "CONCLUDED",
+        "createdAt": "2025-08-27T08:08:41.063Z",
+        "user": "PROCESS_EVENTS"
+      }
+    ],
+    "status": "CONCLUDED",
+    "updatedAt": "2025-08-27T08:08:41.063Z"
+  },
+  {
+    "actions": [],
+    "benefits": [],
+    "companyId": "1745956859395BA7BB07E98BF5D6132C",
+    "cancellation": null,
+    "customer": {
+      "id": "54a4535b-731b-4976-a541-963f7b1745f9",
+      "name": "Mario Mario",
+      "ordersCountOnMerchant": 2,
+      "phone": {
+        "number": "00000000000",
+        "extension": ""
+      }
+    },
+    "delivery": {
+      "deliveryAddress": {
+        "country": "BR",
+        "state": "SP",
+        "city": "São Paulo",
+        "neighborhood": "Exemplo",
+        "streetName": "Exemplo",
+        "streetNumber": "Exemplo",
+        "complement": "Exemplo",
+        "postalCode": "00000-000"
+      },
+      "mode": "DEFAULT",
+      "deliveredBy": "MERCHANT",
+      "preparationTime": null
+    },
+    "displayId": "GQZEEJ",
+    "id": "DELIVERYVIP_ba4777db-f566-40f4-b4d8-7b0d26b4ee13",
+    "isTest": false,
+    "integrated": false,
+    "integrationId": null,
+    "items": [],
+    "merchant": {
+      "id": "1745956859395BA7BB07E98BF5D6132C",
+      "name": "LOJA",
+      "description": "00000000000000",
+      "doc": "00000000000000",
+      "docType": "00000000000000"
+    },
+    "orderTiming": "IMMEDIATE",
+    "orderType": "DELIVERY",
+    "payments": {
+      "prepaid": 0,
+      "pending": 28.6,
+      "methods": [
+        {
+          "value": 28.6,
+          "currency": "BRL",
+          "type": "OFFLINE",
+          "method": "WALLET",
+          "card": {
+            "brand": "Outro"
+          },
+          "code": "Dinheiro",
+          "cash": {
+            "changeFor": "29.0"
+          }
+        }
+      ]
+    },
+    "preparationStartDateTime": "2025-08-27T03:13:02.958Z",
+    "reference": "ba4777db-f566-40f4-b4d8-7b0d26b4ee13",
+    "salesChannel": "CANNOLI",
+    "scheduledAt": null,
+    "scheduled": false,
+    "takeout": null,
+    "takeOutTimeInSeconds": 1800,
+    "total": {
+      "orderAmount": 28.6,
+      "subTotal": 22.6,
+      "benefits": 0,
+      "deliveryFee": 6,
+      "additionalFees": 0
+    },
+    "version": "0.0.3",
+    "engineType": "DELIVERYVIP",
+    "engineName": "DELIVERY VIP",
+    "engineId": "175458971748EEDAB2BC91A0981D97B0",
+    "containerId": "1745956859353CCFB8AFA9FF88393782",
+    "active": true,
+    "createdAt": "2025-08-27T03:13:02.963Z",
+    "status": "CONCLUDED",
+    "updatedAt": "2025-08-27T10:51:33.530Z"
+  },
+  {
+    "id": "IFOOD_3ef6a4ff-b7dc-477c-9fe7-10f2c80eded8",
+    "displayId": "3127",
+    "category": "FOOD",
+    "orderTiming": "IMMEDIATE",
+    "orderType": "DELIVERY",
+    "delivery": {
+      "mode": "DEFAULT",
+      "description": "Padrão",
+      "deliveredBy": "MERCHANT",
+      "deliveryDateTime": "2025-08-27T03:33:04.452Z",
+      "deliveryAddress": {
+        "streetName": "Exemplo",
+        "streetNumber": "Exemplo",
+        "formattedAddress": "Exemplo",
+        "neighborhood": "Exemplo",
+        "complement": "Exemplo",
+        "city": "São Paulo",
+        "state": "SP",
+        "country": "BR",
+        "coordinates": {
+          "latitude": -23.484294,
+          "longitude": -46.582811
+        }
+      },
+      "pickupCode": "1308"
+    },
+    "preparationStartDateTime": "2025-08-27T03:03:04.452Z",
+    "isTest": false,
+    "salesChannel": "IFOOD",
+    "merchant": {
+      "id": "40afd127-533e-41ee-adde-2e20c9da5712",
+      "name": "LOJA"
+    },
+    "customer": {
+      "id": "3bf7dfaf-fd1c-4a1f-a4eb-6db391125dbe",
+      "name": "Poly Sana",
+      "phone": {
+        "number": "0800 200 5011",
+        "localizer": "00000000000",
+        "localizerExpiration": "2025-08-27T07:03:04.452Z"
+      },
+      "ordersCountOnMerchant": 2,
+      "segmentation": "Cliente"
+    },
+    "items": [
+      {
+        "index": 1,
+        "id": "3fc943d2-fe6c-4555-983e-8c87d6a2b3f4",
+        "uniqueId": "916ea097-11aa-49c5-9721-d84387cc9dba",
+        "name": "Esfiha de Carne",
+        "type": "DEFAULT",
+        "quantity": 8,
+        "unit": "GRAMS",
+        "unitPrice": 3.59,
+        "optionsPrice": 0,
+        "totalPrice": 28.72,
+        "price": 28.72,
+        "observations": "",
+        "options": [],
+        "imageUrl": "https://imagem.png"
+      }
+    ],
+    "total": {
+      "additionalFees": 0.99,
+      "subTotal": 28.72,
+      "deliveryFee": 0,
+      "benefits": 0,
+      "orderAmount": 29.71
+    },
+    "payments": {
+      "prepaid": 29.71,
+      "pending": 0,
+      "methods": [
+        {
+          "value": 29.71,
+          "currency": "BRL",
+          "method": "PIX",
+          "prepaid": true,
+          "type": "ONLINE",
+          "card": {
+            "brand": "PIX"
+          }
+        }
+      ]
+    },
+    "additionalFees": [
+      {
+        "type": "SERVICE_FEE_099_ALL_ORDERS_SP",
+        "description": "Taxa de serviço",
+        "fullDescription": "Cobramos uma taxa que nos ajuda a cobrir os custos operacionais e manter a melhor experiência de compra para você",
+        "value": 0.99,
+        "liabilities": [
+          {
+            "name": "IFOOD",
+            "percentage": 100
+          }
+        ]
+      }
+    ],
+    "picking": {
+      "picker": "DEFAULT"
+    },
+    "benefits": [],
+    "reference": "3ef6a4ff-b7dc-477c-9fe7-10f2c80eded8",
+    "active": true,
+    "createdAt": "2025-08-27T03:04:12.473Z",
+    "actions": [
+      {
+        "status": "CONFIRMED",
+        "createdAt": "2025-08-27T03:04:40.363Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "DELIVERY_DROP_CODE_REQUESTED",
+        "createdAt": "2025-08-27T03:04:49.661Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "DISPATCHED",
+        "createdAt": "2025-08-27T04:10:39.961Z",
+        "user": "PROCESS_EVENTS"
+      },
+      {
+        "status": "CONCLUDED",
+        "createdAt": "2025-08-27T07:44:10.261Z",
+        "user": "PROCESS_EVENTS"
+      }
+    ],
+    "status": "CONCLUDED",
+    "updatedAt": "2025-08-27T07:44:10.262Z"
+  }
+]

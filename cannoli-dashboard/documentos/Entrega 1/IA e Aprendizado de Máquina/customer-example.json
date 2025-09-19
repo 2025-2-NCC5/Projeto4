@@ -1,0 +1,102 @@
+{
+  "id": "000000000000-0000-0000-0000-00000000",
+  "name": "Joao Pessoa",
+  "taxId": "12345678900",
+  "gender": "O",
+  "dateOfBirth": null,
+  "status": 1,
+  "externalCode": "000000000000-0000-0000-0000-00000000",
+  "isEnriched": null,
+  "enrichedAt": null,
+  "enrichedBy": null,
+  "createdAt": "2000-01-01T00:00:01.100Z",
+  "createdBy": "Admin",
+  "updatedAt": "2000-01-01T00:00:01.100Z",
+  "updatedBy": "System",
+  "customerAddress": [],
+  "customerPhone": [
+    {
+      "id": "000000000000-0000-0000-0000-00000000",
+      "customerId": "000000000000-0000-0000-0000-00000000",
+      "countryCode": "55",
+      "areaCode": "11",
+      "phoneNumber": "912345678",
+      "type": 1,
+      "externalCode": null,
+      "isDefault": true,
+      "status": 1,
+      "createdAt": "2000-01-01T00:00:01.100Z",
+      "createdBy": "System",
+      "updatedAt": "2000-01-01T00:00:01.100Z",
+      "updatedBy": "System"
+    },
+    {
+      "id": "000000000000-0000-0000-0000-00000000",
+      "customerId": "000000000000-0000-0000-0000-00000000",
+      "countryCode": "55",
+      "areaCode": "11",
+      "phoneNumber": "987654321",
+      "type": 1,
+      "externalCode": null,
+      "isDefault": true,
+      "status": 1,
+      "createdAt": "2000-01-01T00:00:01.100Z",
+      "createdBy": "System",
+      "updatedAt": "2000-01-01T00:00:01.100Z",
+      "updatedBy": "System"
+    }
+  ],
+  "customerEmail": [
+    {
+      "id": "000000000000-0000-0000-0000-00000000",
+      "customerId": "000000000000-0000-0000-0000-00000000",
+      "email": "joao.pessoa@email.com",
+      "type": 1,
+      "externalCode": null,
+      "isDefault": null,
+      "status": 1,
+      "createdAt": "2000-01-01T00:00:01.100Z",
+      "createdBy": "System",
+      "updatedAt": "2000-01-01T00:00:01.100Z",
+      "updatedBy": "System"
+    }
+  ],
+  "segmentCustomer": [
+    {
+      "id": "000000000000-0000-0000-0000-00000000",
+      "segmentId": "000000000000-0000-0000-0000-00000000",
+      "customerId": "000000000000-0000-0000-0000-00000000",
+      "createdAt": "2000-01-01T00:00:01.100Z",
+      "createdBy": "System",
+      "updatedAt": "2000-01-01T00:00:01.100Z",
+      "updatedBy": "System",
+      "segment": {
+        "id": "000000000000-0000-0000-0000-00000000",
+        "storeId": "000000000000-0000-0000-0000-00000000",
+        "name": "Clientes que fizeram 1º pedido",
+        "title": "loyalty",
+        "icon": "segment",
+        "color": 1,
+        "type": 1,
+        "isDefault": false,
+        "externalCode": "000000000000-0000-0000-0000-00000000",
+        "createdAt": "2000-01-01T00:00:01.100Z",
+        "createdBy": "System",
+        "updatedAt": "2000-01-01T00:00:01.100Z",
+        "updatedBy": "System",
+        "segmentCustomer": [],
+        "campaign": []
+      }
+    }
+  ],
+  "customerStore": [
+    {
+      "customerId": "000000000000-0000-0000-0000-00000000",
+      "storeId": "000000000000-0000-0000-0000-00000000",
+      "createdAt": "2000-01-01T00:00:01.100Z",
+      "createdBy": "System",
+      "updatedAt": "2000-01-01T00:00:01.100Z",
+      "updatedBy": "System"
+    }
+  ]
+}
