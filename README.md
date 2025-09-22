@@ -60,7 +60,7 @@ Com essa solução, a empresa passa a contar com uma plataforma acessível em qu
 
 ## 🛠 Instalação
 
-Não há instalação! O Projeto está hospedado e pode ser acessado <a href="https://dashboard-bcb.streamlit.app/">Clicando Aqui</a>
+Não há instalação! a>
 
 # 💻 Configuração para Desenvolvimento
 
