@@ -60,14 +60,11 @@ Com essa solução, a empresa passa a contar com uma plataforma acessível em qu
 
 ## 🛠 Instalação
 
-Não há instalação! a>
+Não há instalação! 
 
 # 💻 Configuração para Desenvolvimento
 
 Para rodar este projeto localmente, siga os passos abaixo:
-
-Não há instalação!
-Encontre o index.html na pasta executáveis e execute-o como uma página WEB (através de algum browser).
 
 ## 📋 Licença/License
 Este projeto está licenciado sob a licença CC BY 4.0.
@@ -75,5 +72,5 @@ Você pode criar a sua própria licença Creative Commons em: https://chooser-be
 
 ## 🎓 Referências
 
-Aqui estão as referências usadas no projeto.
+Aqui estão as referências usadas no projeto:
 
