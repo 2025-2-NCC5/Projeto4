@@ -7,34 +7,30 @@ import { PowerIcon } from "@heroicons/react/24/outline";
 
 export default function SideNav() {
   return (
-    <div
-      className="flex h-full flex-col px-4 py-6 border-r"
-      style={{ backgroundColor: "#EFE9DD", color: "#3A2F2A" }}
-    >
-      <Link href="/" className="mb-6 flex items-center">
-        <DataliveryLogo />
+    <aside className="flex h-full flex-col px-4 py-6 border-r bg-[#EFE9DD] text-[#3A2F2A]">
+
+      {/* Logo maior */}
+      <Link href="/" className="mb-8 flex items-center justify-center">
+        <div className="w-44">
+          <DataliveryLogo />
+        </div>
       </Link>
 
+      {/* Links */}
       <div className="flex flex-col gap-2 flex-1">
         <NavLinks />
-
         <div className="flex-1" />
 
-        <form>
-          <button
-            className="flex w-full items-center gap-2 rounded-md p-3 text-sm font-medium transition"
-            style={{
-              backgroundColor: "#F26A21",
-              color: "white",
-            }}
-            onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = "#f48441")}
-            onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = "#F26A21")}
-          >
-            <PowerIcon className="w-5" />
-            Sair
-          </button>
-        </form>
+        {/* Botão Sair */}
+        <button
+          type="button"
+          onClick={() => window.location.href = "/"}
+          className="flex items-center justify-center gap-2 w-full px-3 py-2 rounded-md bg-[#F26A21] text-white hover:bg-[#f48441] transition font-medium"
+        >
+          <PowerIcon className="w-5" />
+          Sair
+        </button>
       </div>
-    </div>
+    </aside>
   );
 }
