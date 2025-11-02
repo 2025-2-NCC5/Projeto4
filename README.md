@@ -115,20 +115,18 @@ docker compose up --build
 ```sh
 docker exec -it fakedata-db-1 psql -U postgres -d datalivery
 ```
-### Variável de execução (usada pelo prisma)
-```sh
-DATABASE_URL="postgresql://postgres:senha@localhost:5432/datalivery"
-```
-
 
 ## 💻 Configuração para Desenvolvimento
 
 ### Pré-requisitos:
 - Node.js LTS
 - Docker Desktop
-
-### Variáveis de ambiente:
-Crie `.env.local` na pasta do dashboard:
+- 
+### Variável de execução (usada pelo prisma):
+Crie `.env` na pasta do dashboard com o seguinte código:
+```sh
+DATABASE_URL="postgresql://postgres:senha@localhost:5432/datalivery"
+```
 
 ## 📋 Licença/License
 Este projeto está licenciado sob a licença CC BY 4.0.
