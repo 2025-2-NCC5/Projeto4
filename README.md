@@ -121,7 +121,7 @@ docker exec -it fakedata-db-1 psql -U postgres -d datalivery
 ### Pré-requisitos:
 - Node.js LTS
 - Docker Desktop
-- 
+
 ### Variável de execução (usada pelo prisma):
 Crie `.env` na pasta do dashboard com o seguinte código:
 ```sh
