@@ -1,24 +1,17 @@
-import { PrismaClient } from "@prisma/client"
-const prisma = new PrismaClient()
+import { PrismaClient } from "@prisma/client";
+const prisma = new PrismaClient();
 
 export async function GET() {
-  const rows = await prisma.$queryRaw<
-    { name: string; nps_medio: number }[]
-  >`
-    SELECT
-      r.name,
-      AVG(o.nps_score) AS nps_medio
-    FROM restaurants r
-    JOIN orders o ON o.restaurant_id = r.id
-    GROUP BY r.name
-    ORDER BY nps_medio DESC;
-  `
+  const rows = await prisma.$queryRaw<{ score: number }[]>`
+    SELECT score FROM nps_responses;
+  `;
 
-  // Converte para número
-  const data = rows.map(r => ({
-    name: r.name,
-    nps_medio: Number(r.nps_medio)
-  }))
+  const promoters = rows.filter(r => r.score >= 9).length;
+  const passives = rows.filter(r => r.score >= 7 && r.score <= 8).length;
+  const detractors = rows.filter(r => r.score <= 6).length;
+  const total = rows.length;
 
-  return Response.json(data)
+  const nps = ((promoters - detractors) / total) * 100;
+
+  return Response.json({ nps, promoters, passives, detractors, total });
 }

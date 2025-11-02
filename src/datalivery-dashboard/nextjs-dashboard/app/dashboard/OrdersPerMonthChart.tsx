@@ -1,35 +1,30 @@
-"use client"
-
-import { useEffect, useState } from "react"
-import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts"
+"use client";
+import { useEffect, useState } from "react";
+import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
 
 export default function OrdersPerMonthChart() {
-  const [data, setData] = useState<any[]>([])
-  const [loading, setLoading] = useState(true)
+  const [data, setData] = useState([]);
 
   useEffect(() => {
-    async function load() {
-      const res = await fetch("/api/orders-per-month")
-      const json = await res.json()
-      setData(json)
-      setLoading(false)
-    }
-    load()
-  }, [])
+    fetch("/api/orders-per-month")
+      .then((r) => r.json())
+      .then(setData)
+      .catch(() => setData([]));
+  }, []);
 
-  if (loading) return <p>Carregando gráfico...</p>
+  if (!data.length) return <div>Carregando...</div>;
 
   return (
-    <div className="p-6">
-      <h2 className="text-2xl font-semibold mb-4">Pedidos por Mês</h2>
+    <div className="p-6 bg-white rounded-lg shadow">
+      <h2 className="text-xl font-medium mb-4">Pedidos por Mês</h2>
       <ResponsiveContainer width="100%" height={350}>
         <LineChart data={data}>
-          <XAxis dataKey="mes" />
+          <XAxis dataKey="month" />
           <YAxis />
           <Tooltip />
-          <Line type="monotone" dataKey="total_pedidos" stroke="currentColor" strokeWidth={2} />
+          <Line type="monotone" dataKey="total" stroke="#F26A21" strokeWidth={3} />
         </LineChart>
       </ResponsiveContainer>
     </div>
-  )
+  );
 }
