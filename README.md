@@ -2,26 +2,50 @@
 # FECAP - Fundação de Comércio Álvares Penteado
 
 <p align="center">
-<a href= "https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP - Fundação de Comércio Álvares Penteado" border="0"></a>
+<a href="https://www.fecap.br/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhZPrRa89Kma0ZZogxm0pi-tCn_TLKeHGVxywp-LXAFGR3B1DPouAJYHgKZGV0XTEf4AE&usqp=CAU" alt="FECAP" border="0"></a>
 </p>
 
-# Projeto Cannoli
+# **Datalivery Dashboard**
+
+<p align="center">
+<img src="./imagens/datalivery-logo.png" width="620">
+</p>
 
 ## Grupo 4
 
-## Integrantes: <a href="https://www.linkedin.com/in/biaib/">Beatriz Rio Branco</a>, <a href="https://www.linkedin.com/in/s%C3%A1tiro-gabriel-27081430b/">Sátiro Gabriel</a>, <a href="https://www.linkedin.com/in/sabrinna-vicente-049225306/">Sabrinna Vicente</a>, <a href="https://www.linkedin.com/in/rodrigocgama04/">Rodrigo Correa da Gama</a>
+### Integrantes:
+- **Beatriz de Souza Santos Rio Branco** — <a href="https://www.linkedin.com/in/biaib/">LinkedIn</a>
+- **Sátiro Gabriel de Souza Santos** — <a href="https://www.linkedin.com/in/s%C3%A1tiro-gabriel-27081430b/">LinkedIn</a>
+- **Sabrinna Cristina Gomes Vicente** — <a href="https://www.linkedin.com/in/sabrinna-vicente-049225306/">LinkedIn</a>
+- **Rodrigo Correa da Gama** — <a href="https://www.linkedin.com/in/rodrigocgama04/">LinkedIn</a>
 
-## Professores Orientadores: <a href="https://www.linkedin.com/in/victorbarq/">Victor Bruno Alexander Rosetti de Quiroz</a>, <a href="https://www.linkedin.com/in/rodrigo-da-rosa-phd/">Rodrigo da Rosa</a>, <a href="https://www.linkedin.com/in/remuniz/">Renata Muniz</a>, <a href="https://www.linkedin.com/in/marcosminorunakatsugawa/">Marcos Minoru Nakatsugawa</a>, <a href="https://www.linkedin.com/in/rafael-diogo-rossetti/">Rafael Diogo Rossetti </a>
+### Professores Orientadores:
+Victor Bruno Alexander Rosetti de Quiroz,  
+Rodrigo da Rosa,  
+Renata Muniz,  
+Marcos Minoru Nakatsugawa,  
+Rafael Diogo Rossetti.
 
-## Descrição
+---
 
-<p align="center">
-<img src="imagens/CannoliFoods.png" alt="Cannoli" border="0">
-</p>
+## 🎯 Descrição
 
-Nosso projeto é uma iniciativa acadêmica desenvolvida com tecnologias de computação em nuvem e Inteligência Artificial, projetado para transformar dados em decisões estratégicas. Por meio de uma plataforma interativa, o projeto visa favorecer estrategicamente a empresa Cannoli e fortalecer a relação com o cliente.
+A **datalivery** é uma plataforma de inteligência de dados desenvolvida para negócios do ramo alimentício com foco em **entregas delivery**.
 
-Com essa solução, a empresa passa a contar com uma plataforma acessível em qualquer lugar e a qualquer momento, garantindo segurança e escalabilidade no gerenciamento das informações. A integração em nuvem permite armazenamento confiável e processamento otimizado, reduzindo custos de infraestrutura e aumentando a eficiência operacional, a aplicação de IA oferece análises preditivas e insights automatizados, permitindo identificar padrões de consumo, otimizar estoques, prever demandas de mercado e melhorar a experiência do cliente.
+O objetivo do sistema é **transformar dados operacionais em decisões estratégicas**, permitindo que o gestor acompanhe desempenho, visualize métricas de comportamento dos consumidores e receba insights que ajudem a melhorar retenção, experiência e faturamento.
+
+A proposta inclui:
+- Dashboard completo acessível via navegador
+- Clusterização de clientes (K-Means) → identificação de padrões de consumo
+- Ranking de clientes por ticket, fidelidade e recorrência
+- Métricas de NPS e engajamento
+- Armazenamento em nuvem com **Neon PostgreSQL**
+- Frontend em **Next.js** + gráficos dinâmicos
+- Backend integrado a APIs com consultas otimizadas
+
+O sistema foi projetado para ser **escalável, seguro e acessível**, proporcionando ao gestor a capacidade de tomar decisões com dados reais, não achismos.
+
+---
 
 ## 🛠 Estrutura de pastas
 
@@ -58,13 +82,53 @@ Com essa solução, a empresa passa a contar com uma plataforma acessível em qu
 |.gitignore<br>
 |readme.md<br>
 
-## 🛠 Instalação
 
-Não há instalação! 
+---
 
-# 💻 Configuração para Desenvolvimento
+## 🏗 Tecnologias Utilizadas
 
-Para rodar este projeto localmente, siga os passos abaixo:
+| Camada | Ferramentas |
+|-------|-------------|
+| Front-End | Next.js 14 (App Router), React, TailwindCSS |
+| Back-End | Next.js API Routes + Prisma ORM |
+| Banco de Dados | PostgreSQL (Docker) |
+| Geração de Dados | Python + Faker |
+| Clusterização | Jupyter Notebook + Scikit-Learn |
+
+## **Arquitetura Resumida**
+Next.js (Front-End e API)
+↓ Prisma
+PostgreSQL (Docker)
+↑ Dados Sintéticos (Python)
+Jupyter Notebook (Clusterização)
+---
+
+## **Banco de Dados**
+
+> **Banco executado localmente via Docker.**
+
+### Iniciar o banco
+```sh
+docker compose up --build
+```
+### Acessar o banco
+```sh
+docker exec -it fakedata-db-1 psql -U postgres -d datalivery
+```
+### Variável de execução (usada pelo prisma)
+```sh
+DATABASE_URL="postgresql://postgres:senha@localhost:5432/datalivery"
+```
+
+
+## 💻 Configuração para Desenvolvimento
+
+### Pré-requisitos:
+- Node.js LTS
+- Docker Desktop
+
+### Variáveis de ambiente:
+Crie `.env.local` na pasta do dashboard:
 
 ## 📋 Licença/License
 Este projeto está licenciado sob a licença CC BY 4.0.
@@ -73,4 +137,5 @@ Você pode criar a sua própria licença Creative Commons em: https://chooser-be
 ## 🎓 Referências
 
 Aqui estão as referências usadas no projeto:
+
 
