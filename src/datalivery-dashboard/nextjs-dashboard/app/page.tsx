@@ -7,26 +7,25 @@ export default function Home() {
 
       <div className="text-center max-w-2xl">
         <Image
-          src="/datalivery-logo.svg" // coloque seu logo em /public
+          src="/datalivery-logo-sem-fundo.png" 
           alt="Datalivery Logo"
-          width={240}
-          height={200}
+          width={640}
+          height={600}
           className="mx-auto mb-6"
         />
 
         <h1 className="text-4xl font-semibold mb-4">
-          Bem-vindo à Datalivery
+          Bem-vindo ao Datalivery
         </h1>
 
-        <p className="text-lg mb-8 opacity-90">
-          Inteligência de dados para restaurantes que utilizam serviços de delivery. 
-          Acompanhe métricas, compare desempenho e identifique oportunidades de crescimento.
-        </p>
+        <h2 className="text-lg mb-8 opacity-90">
+         Acompanhe métricas, compare desempenho e identifique oportunidades de crescimento.
+        </h2>
 
         {/* Botões */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
 
-          <Link href="/dashboard" className="bg-[#F26A21] text-white px-6 py-3 rounded-lg hover:bg-[#d4591d] text-center transition">
+          <Link href="/dashboard"  className="bg-white border border-[#F26A21] text-[#F26A21] px-6 py-3 rounded-lg hover:bg-[#fce8df] text-center transition">
             📊 Painel Principal
           </Link>
 

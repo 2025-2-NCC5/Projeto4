@@ -1,35 +1,34 @@
 "use client";
 
-import Link from "next/link";
 import { usePathname } from "next/navigation";
+import Link from "next/link";
+import { HomeIcon, UsersIcon, ChartBarIcon } from "@heroicons/react/24/outline";
 
 const links = [
-  { name: "Dashboard", href: "/dashboard", icon: "📊" },
-  { name: "Ranking de Clientes", href: "/dashboard/ranking", icon: "🥇" },
-  { name: "NPS", href: "/dashboard/nps", icon: "⭐" },
-  { name: "Clusterização", href: "/dashboard/clusters", icon: "🎯" },
+  { name: "Dashboard", href: "/dashboard", icon: HomeIcon },
+  { name: "Ranking", href: "/dashboard/ranking", icon: UsersIcon },
+  { name: "NPS", href: "/dashboard/nps", icon: ChartBarIcon },
 ];
 
 export default function NavLinks() {
   const pathname = usePathname();
 
   return (
-    <nav className="flex flex-col gap-2">
-      {links.map((link) => {
-        const active = pathname.startsWith(link.href);
-
+    <nav className="flex flex-col gap-1">
+      {links.map(({ name, href, icon: Icon }) => {
+        const active = pathname === href;
         return (
           <Link
-            key={link.name}
-            href={link.href}
-            className={`flex items-center gap-2 px-3 py-2 rounded-md transition ${
+            key={href}
+            href={href}
+            className={
               active
-                ? "bg-[#F26A21] text-white"
-                : "text-[#3A2F2A] hover:bg-[#f5d9c7]"
-            }`}
+                ? "flex items-center gap-2 px-3 py-2 rounded-md bg-[#F26A21] text-white font-medium"
+                : "flex items-center gap-2 px-3 py-2 rounded-md text-[#3A2F2A] hover:bg-[#f2d7bf] transition font-medium"
+            }
           >
-            <span className="text-lg">{link.icon}</span>
-            <span className="text-sm font-medium">{link.name}</span>
+            <Icon className="w-5" />
+            {name}
           </Link>
         );
       })}
