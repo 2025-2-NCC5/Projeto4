@@ -125,7 +125,7 @@ docker exec -it fakedata-db-1 psql -U postgres -d datalivery
 ### Variável de execução (usada pelo prisma):
 Crie `.env` na pasta do dashboard com o seguinte código:
 ```sh
-DATABASE_URL="postgresql://postgres:senha@localhost:5432/datalivery"
+DATABASE_URL="postgresql://postgres:1234@localhost:5432/datalivery"
 ```
 
 ## 📋 Licença/License

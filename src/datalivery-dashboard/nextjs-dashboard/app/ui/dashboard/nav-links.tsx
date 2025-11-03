@@ -2,12 +2,15 @@
 
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import { HomeIcon, UsersIcon, ChartBarIcon } from "@heroicons/react/24/outline";
+import { HomeIcon, UsersIcon, ChartBarIcon, MegaphoneIcon, QuestionMarkCircleIcon, QueueListIcon, ChatBubbleLeftRightIcon } from "@heroicons/react/24/outline";
+import { LinkIcon } from "@heroicons/react/20/solid";
 
 const links = [
   { name: "Dashboard", href: "/dashboard", icon: HomeIcon },
+  { name: "Ações por Segmento", href: "/dashboard/segment-actions", icon: MegaphoneIcon },
   { name: "Ranking", href: "/dashboard/ranking", icon: UsersIcon },
   { name: "NPS", href: "/dashboard/nps", icon: ChartBarIcon },
+  { name: "Chatbot", href: "/dashboard/chat", icon: ChatBubbleLeftRightIcon },
 ];
 
 export default function NavLinks() {

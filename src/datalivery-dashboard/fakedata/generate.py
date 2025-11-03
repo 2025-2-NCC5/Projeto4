@@ -76,7 +76,7 @@ def main():
    parser.add_argument("--host", default="localhost")
    parser.add_argument("--port", default=5432, type=int)
    parser.add_argument("--user", default="postgres")
-   parser.add_argument("--password", default="senha")
+   parser.add_argument("--password", default="1234")
    parser.add_argument("--db", default="datalivery")
    parser.add_argument("--orders", default=12000, type=int)
    args = parser.parse_args()

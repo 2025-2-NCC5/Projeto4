@@ -4,7 +4,7 @@ services:
    image: postgres:15
    environment:
      POSTGRES_USER: postgres
-     POSTGRES_PASSWORD: senha
+     POSTGRES_PASSWORD: 1234
      POSTGRES_DB: datalivery
    volumes:
      - db-data:/var/lib/postgresql/data
@@ -22,6 +22,6 @@ services:
    # o comando abaixo instala dependências e roda o script (vai rodar uma vez) com 12000 pedidos fictícios.
    command: >
      "pip install psycopg2-binary faker tqdm &&
-      python generate.py --host db --port 5432 --user postgres --password senha --db datalivery --orders 12000" 
+      python generate.py --host db --port 5432 --user postgres --password 1234 --db datalivery --orders 12000" 
 volumes:
  db-data:

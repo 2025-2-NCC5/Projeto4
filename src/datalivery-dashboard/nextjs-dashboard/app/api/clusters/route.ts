@@ -16,14 +16,14 @@ export async function GET() {
   `;
 
   const data = rows.map(r => [r.ltv, r.freq]);
-  const { clusters } = kmeans(data, 4);
 
+  const result = kmeans(data, 4); // agora tipado
   const labels = ["Raro", "Ocasional", "Leal", "VIP"];
 
-  return Response.json(
-    rows.map((r, i) => ({
-      ...r,
-      cluster: labels[clusters[i]]
-    }))
-  );
+  const out = rows.map((r, i) => ({
+    ...r,
+    cluster: labels[result.clusters[i]]
+  }));
+
+  return Response.json(out);
 }

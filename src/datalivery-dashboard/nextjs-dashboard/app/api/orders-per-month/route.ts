@@ -7,7 +7,7 @@ export async function GET() {
       { month: string; total: number }[]
     >`
       SELECT
-        TO_CHAR(o.order_date, 'YYYY-MM') AS month,
+        TO_CHAR(o.created_at, 'YYYY-MM') AS month,
         SUM(o.order_value)::float AS total
       FROM orders o
       GROUP BY month
