@@ -1,0 +1,27 @@
+version: "3.8"
+services:
+ db:
+   image: postgres:15
+   environment:
+     POSTGRES_USER: postgres
+     POSTGRES_PASSWORD: 1234
+     POSTGRES_DB: datalivery
+   volumes:
+     - db-data:/var/lib/postgresql/data
+     - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+   ports:
+     - "5432:5432"
+ generator:
+   image: python:3.11-slim
+   depends_on:
+     - db
+   volumes:
+     - ./generate.py:/app/generate.py:ro
+   working_dir: /app
+   entrypoint: [ "bash", "-lc" ]
+   # o comando abaixo instala dependências e roda o script (vai rodar uma vez) com 12000 pedidos fictícios.
+   command: >
+     "pip install psycopg2-binary faker tqdm &&
+      python generate.py --host db --port 5432 --user postgres --password 1234 --db datalivery --orders 12000" 
+volumes:
+ db-data:
