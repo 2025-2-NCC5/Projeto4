@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-export default function AlertsList() {
+export default function AlertsList({ cidade, periodo }: { cidade: string; periodo: string }) {
   const [alerts, setAlerts] = useState<string[]>([]);
 
   useEffect(() => {

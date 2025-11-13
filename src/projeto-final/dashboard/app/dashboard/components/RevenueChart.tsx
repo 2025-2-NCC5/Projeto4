@@ -14,7 +14,7 @@ import {
 
 ChartJS.register(LineElement, CategoryScale, LinearScale, PointElement, Tooltip, Legend);
 
-export default function RevenueChart() {
+export default function RevenueChart({ cidade, periodo }: { cidade: string; periodo: string }) {
   const [data, setData] = useState<any[]>([]);
 
   useEffect(() => {

@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-export default function CampaignSuggestions() {
+export default function CampaignSuggestions({ cidade, periodo }: { cidade: string; periodo: string }) {
   const [data, setData] = useState<any[]>([]);
 
   useEffect(() => {

@@ -2,12 +2,19 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-export default function KpiCards() {
+export default function KpiCards({ cidade, periodo }: { cidade: string; periodo: string }) {
   const [data, setData] = useState<any>(null);
 
   useEffect(() => {
-    axios.get("/api/metrics").then((res) => setData(res.data));
-  }, []);
+    const query = new URLSearchParams();
+    if (cidade) query.append("cidade", cidade);
+    if (periodo) query.append("periodo", periodo);
+
+    axios
+      .get(`/api/metrics?${query.toString()}`)
+      .then((res) => setData(res.data))
+      .catch((err) => console.error("Erro ao buscar KPIs:", err));
+  }, [cidade, periodo]);
 
   if (!data) return <p>Carregando KPIs...</p>;
 
