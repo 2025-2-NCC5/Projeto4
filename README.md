@@ -107,7 +107,7 @@ Jupyter Notebook (Clusterização)
 
 > **Banco executado localmente via Docker.**
 
-### Iniciar o banco
+### Iniciar o banco: dentro do diretório "fakedata", rode: 
 ```sh
 docker compose up --build
 ```
@@ -123,7 +123,7 @@ docker exec -it fakedata-db-1 psql -U postgres -d datalivery
 - Docker Desktop
 
 ### Variável de execução (usada pelo prisma):
-Crie `.env` na pasta do dashboard com o seguinte código:
+Crie `.env` na pasta  `dashboard` com o seguinte código:
 ```sh
 DATABASE_URL="postgresql://postgres:1234@localhost:5432/datalivery"
 ```
