@@ -12,18 +12,20 @@ export default function CampaignMessages({ customerId, customerName }: Props) {
 
   useEffect(() => {
     axios.get(`/api/campaigns-for?id=${customerId}`).then((res) => {
-      setMessages(res.data);
+      setMessages(res.data || []);
     });
   }, [customerId]);
 
   return (
     <div className="bg-white p-4 rounded shadow">
-      <h2 className="text-lg font-semibold mb-4">Mensagens recomendadas para {customerName} : </h2>
+      <h2 className="text-lg font-semibold mb-4">
+        Mensagens recomendadas para {customerName} :
+      </h2>
       <div className="flex flex-col items-start">
         {messages.map((msg, i) => (
           <div
             key={i}
-            className="bg-[#DCF8C6] text-sm p-3 rounded-xl max-w-xs shadow mb-2"
+            className="bg-[#DCF8C6] text-sm p-3 rounded-xl max-w-xs shadow mb-2 self-start"
           >
             <p>{msg}</p>
           </div>

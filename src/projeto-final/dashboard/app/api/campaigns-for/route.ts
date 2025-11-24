@@ -24,7 +24,8 @@ export async function GET(req: Request) {
 
   const totalPedidos = cliente.orders.length;
   const valorMedio =
-    cliente.orders.reduce((acc, o) => acc + Number(o.order_value), 0) / totalPedidos || 0;
+    cliente.orders.reduce((acc, o) => acc + Number(o.order_value), 0) /
+      totalPedidos || 0;
 
   const horario = (() => {
     const horas = cliente.orders.map((o) => new Date(o.created_at!).getHours());
@@ -33,7 +34,8 @@ export async function GET(req: Request) {
   })();
 
   const nps = Math.round(
-    cliente.orders.reduce((acc, o) => acc + (o.nps_score || 0), 0) / totalPedidos || 0
+    cliente.orders.reduce((acc, o) => acc + (o.nps_score || 0), 0) /
+      totalPedidos || 0
   );
 
   const res = await fetch("http://localhost:8000/recomendar", {
@@ -51,5 +53,6 @@ export async function GET(req: Request) {
   });
 
   const campanhas = await res.json();
-  return NextResponse.json(campanhas);
+  // devolve só o array de campanhas
+  return NextResponse.json(campanhas.campanhas || []);
 }
