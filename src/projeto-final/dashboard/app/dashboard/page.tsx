@@ -19,30 +19,6 @@ export default function DashboardPage() {
         </p>
       </div>
 
-      {/* Filtros */}
-      <div className="flex gap-4 mb-4">
-        <select
-          value={cidade}
-          onChange={(e) => setCidade(e.target.value)}
-          className="border rounded px-3 py-2 bg-white text-[#3A2F2A]"
-        >
-          <option value="">Todas as cidades</option>
-          <option value="São Paulo">São Paulo</option>
-          <option value="Campinas">Campinas</option>
-          <option value="Rio de Janeiro">Rio de Janeiro</option>
-        </select>
-
-        <select
-          value={periodo}
-          onChange={(e) => setPeriodo(e.target.value)}
-          className="border rounded px-3 py-2 bg-white text-[#3A2F2A]"
-        >
-          <option value="7">Últimos 7 dias</option>
-          <option value="30">Últimos 30 dias</option>
-          <option value="90">Últimos 90 dias</option>
-        </select>
-      </div>
-
       {/* Componentes principais */}
       <KpiCards cidade={cidade} periodo={periodo} />
       <RevenueChart cidade={cidade} periodo={periodo} />
